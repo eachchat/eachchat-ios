@@ -122,15 +122,6 @@ final class BuildSettings: NSObject {
     // MARK: - Permalinks
     // Hosts/Paths for URLs that will considered as valid permalinks. Those permalinks are opened within the app.
     static let permalinkSupportedHosts: [String: [String]] = [
-        "app.element.io": [],
-        "staging.element.io": [],
-        "develop.element.io": [],
-        "mobile.element.io": [""],
-        // Historical ones
-        "riot.im": ["/app", "/staging", "/develop"],
-        "www.riot.im": ["/app", "/staging", "/develop"],
-        "vector.im": ["/app", "/staging", "/develop"],
-        "www.vector.im": ["/app", "/staging", "/develop"],
         // Official Matrix ones
         "matrix.to": ["/"],
         "www.matrix.to": ["/"],
