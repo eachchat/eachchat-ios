@@ -70,9 +70,9 @@
 	<key>NSFaceIDUsageDescription</key>
 	<string>Face ID is used to access your app.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>When you share your location to people, Element needs access to show them a map.</string>
+	<string>When you share your location to people, EachChat needs access to show them a map.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>When you share your location to people, Element needs access to show them a map.</string>
+	<string>When you share your location to people, EachChat needs access to show them a map.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>The microphone is used to take videos, make calls.</string>
 	<key>NSPhotoLibraryUsageDescription</key>

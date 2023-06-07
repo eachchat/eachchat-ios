@@ -20,7 +20,7 @@
 #include "Config/AppIdentifiers.xcconfig"
 #include "Config/AppVersion.xcconfig"
 
-PRODUCT_NAME = Element
+PRODUCT_NAME = EachChat
 PRODUCT_BUNDLE_IDENTIFIER = $(BASE_BUNDLE_IDENTIFIER)
 
 INFOPLIST_FILE = Riot/SupportingFiles/Info.plist
