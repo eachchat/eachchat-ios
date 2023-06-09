@@ -125,6 +125,10 @@ final class BuildSettings: NSObject {
         // Official Matrix ones
         "matrix.to": ["/"],
         "www.matrix.to": ["/"],
+        "yunify.com": ["/"],
+        "sso.yunify.com": ["/"],
+        "yiqia.com": ["/"],
+        "each.chat": ["/"],
         // Client Permalinks (for use with `BuildSettings.clientPermalinkBaseUrl`)
 //        "example.com": ["/"],
 //        "www.example.com": ["/"],
