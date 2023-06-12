@@ -51,7 +51,7 @@ struct AuthenticationLoginScreen: View {
                     loginForm
                 }
 
-                if viewModel.viewState.homeserver.showQRLogin {
+                if viewModel.viewState.homeserver.showQRLogin && !BuildSettings.serverConfigDefaultHomeserverUrlString.contains(viewModel.viewState.homeserver.address) {
                     qrLoginButton
                 }
                 
@@ -117,7 +117,6 @@ struct AuthenticationLoginScreen: View {
                                    onEditingChanged: passwordEditingChanged,
                                    onCommit: submit)
                 .accessibilityIdentifier("passwordTextField")
-            
             Button { viewModel.send(viewAction: .forgotPassword) } label: {
                 Text(VectorL10n.authenticationLoginForgotPassword)
                     .font(theme.fonts.body)

@@ -322,7 +322,7 @@ final class RiotSettings: NSObject {
     // MARK: General Settings
     
     @UserDefault(key: "settingsScreenShowChangePassword", defaultValue: BuildSettings.settingsScreenShowChangePassword, storage: defaults)
-    var settingsScreenShowChangePassword
+    var settingsScreenShowChangePassword 
     
     @UserDefault(key: "settingsScreenShowEnableStunServerFallback", defaultValue: BuildSettings.settingsScreenShowEnableStunServerFallback, storage: defaults)
     var settingsScreenShowEnableStunServerFallback

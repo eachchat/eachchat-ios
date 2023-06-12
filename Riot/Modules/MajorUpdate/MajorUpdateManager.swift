@@ -30,9 +30,6 @@ final public class MajorUpdateManager: NSObject {
     // MARK: - Properties
     
     var shouldShowMajorUpdate: Bool {
-        // Branding: No Riot -> Element prompt
-        return false
-        
         guard let lastUsedAppVersion = AppVersion.lastUsed else {
             MXLog.debug("[MajorUpdateManager] shouldShowMajorUpdate: Unknown previous version")
             return false

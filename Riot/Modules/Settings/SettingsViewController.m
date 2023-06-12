@@ -1461,7 +1461,7 @@ ChangePasswordCoordinatorBridgePresenterDelegate>
 {
     MXKTableViewCellWithLabelAndSwitch* labelAndSwitchCell = [self getLabelAndSwitchCell:tableView forIndexPath:indexPath];
     
-    labelAndSwitchCell.mxkLabel.text = [VectorL10n settingsEnableRoomMessageBubbles];
+    labelAndSwitchCell.mxkLabel.text = VectorL10n.settingsEnableRoomMessageBubbles;
     
     labelAndSwitchCell.mxkSwitch.on = RiotSettings.shared.roomScreenEnableMessageBubbles;
     labelAndSwitchCell.mxkSwitch.onTintColor = ThemeService.shared.theme.tintColor;
