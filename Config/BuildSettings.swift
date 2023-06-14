@@ -87,7 +87,7 @@ final class BuildSettings: NSObject {
     }
     
     // Element-Web instance for the app
-    static let applicationWebAppUrlString = "https://im.yunify.com"
+    static let applicationWebAppUrlString = "https://app.yunify.com"
     
     
     // MARK: - Localization
@@ -102,7 +102,7 @@ final class BuildSettings: NSObject {
     static let forceHomeserverSelection = false
 
     /// Default server proposed on the authentication screen
-    static let serverConfigDefaultHomeserverUrlString = "https://yunify.com"
+    static let serverConfigDefaultHomeserverUrlString = "https://chat.yunify.com"
     
     /// Default identity server
     static let serverConfigDefaultIdentityServerUrlString = "https://ids.yunify.com"
@@ -134,7 +134,9 @@ final class BuildSettings: NSObject {
         // Official Matrix ones
         "matrix.to": ["/"],
         "www.matrix.to": ["/"],
+        // EachChat ones
         "yunify.com": ["/"],
+        "chat.yunify.com": ["/"],
         "sso.yunify.com": ["/"],
         "yiqia.com": ["/"],
         "each.chat": ["/"],
@@ -316,7 +318,7 @@ final class BuildSettings: NSObject {
     // MARK: - Room Creation Screen
     
     static let roomCreationScreenAllowEncryptionConfiguration: Bool = true
-    static let roomCreationScreenRoomIsEncrypted: Bool = true
+    static let roomCreationScreenRoomIsEncrypted: Bool = false
     static let roomCreationScreenAllowRoomTypeConfiguration: Bool = true
     static let roomCreationScreenRoomIsPublic: Bool = false
     

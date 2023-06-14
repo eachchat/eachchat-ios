@@ -49,16 +49,15 @@ struct AuthenticationLoginScreen: View {
                 
                 if viewModel.viewState.homeserver.showLoginForm && !BuildSettings.serverConfigDefaultHomeserverUrlString.contains(viewModel.viewState.homeserver.address) {
                     loginForm
+                    if viewModel.viewState.homeserver.showLoginForm, viewModel.viewState.showSSOButtons {
+                        Text(VectorL10n.or)
+                            .foregroundColor(theme.colors.secondaryContent)
+                            .padding(.top, 16)
+                    }
                 }
 
                 if viewModel.viewState.homeserver.showQRLogin && !BuildSettings.serverConfigDefaultHomeserverUrlString.contains(viewModel.viewState.homeserver.address) {
                     qrLoginButton
-                }
-                
-                if viewModel.viewState.homeserver.showLoginForm, viewModel.viewState.showSSOButtons {
-                    Text(VectorL10n.or)
-                        .foregroundColor(theme.colors.secondaryContent)
-                        .padding(.top, 16)
                 }
                 
                 if viewModel.viewState.showSSOButtons {

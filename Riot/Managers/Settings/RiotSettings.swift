@@ -169,12 +169,14 @@ final class RiotSettings: NSObject {
         }
     }
 
+    //@UserDefault(key: "enableNewSessionManager", defaultValue: false, storage: defaults)
     /// Flag indicating if the new session manager is enabled
-    @UserDefault(key: "enableNewSessionManager", defaultValue: false, storage: defaults)
+    @UserDefault(key: "enableNewSessionManager", defaultValue: true, storage: defaults)
     var enableNewSessionManager
 
+    //@UserDefault(key: "enableClientInformationFeature", defaultValue: false, storage: defaults)
     /// Flag indicating if the new client information feature is enabled
-    @UserDefault(key: "enableClientInformationFeature", defaultValue: false, storage: defaults)
+    @UserDefault(key: "enableClientInformationFeature", defaultValue: true, storage: defaults)
     var enableClientInformationFeature
 
     /// Flag indicating if the wysiwyg composer feature is enabled
