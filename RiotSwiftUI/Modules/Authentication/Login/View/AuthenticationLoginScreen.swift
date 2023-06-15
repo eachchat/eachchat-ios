@@ -116,6 +116,7 @@ struct AuthenticationLoginScreen: View {
                                    onEditingChanged: passwordEditingChanged,
                                    onCommit: submit)
                 .accessibilityIdentifier("passwordTextField")
+            
             Button { viewModel.send(viewAction: .forgotPassword) } label: {
                 Text(VectorL10n.authenticationLoginForgotPassword)
                     .font(theme.fonts.body)
