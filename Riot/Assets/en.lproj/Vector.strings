@@ -366,6 +366,9 @@
 "room_creation_error_invite_user_by_email_without_identity_server" = "No identity server is configured so you cannot add a participant with an email.";
 "room_creation_dm_error" = "We couldn't create your DM. Please check the users you want to invite and try again.";
 "room_creation_only_one_email_invite" = "You can only invite one email at a time";
+"room_creation_user_not_found_prompt_title" = "Confirmation";
+"room_creation_user_not_found_prompt_message" = "Unable to find profiles for this Matrix ID. Would you like to start a DM anyway?";
+"room_creation_user_not_found_prompt_invite_action" = "Start DM anyway";
 
 // Room recents
 "room_recents_directory_section" = "ROOM DIRECTORY";
@@ -459,6 +462,8 @@ Tap the + to start adding people.";
 "room_participants_invite_prompt_title" = "Confirmation";
 "room_participants_invite_prompt_msg" = "Are you sure you want to invite %@ to this chat?";
 "room_participants_invite_prompt_to_msg" = "Are you sure you want to invite %@ to %@?";
+"room_participants_invite_unknown_participant_prompt_to_msg" = "Unable to find profiles for this Matrix ID. Are you sure you want to invite %@ to %@?";
+"room_participants_invite_anyway" = "Invite anyway";
 "room_participants_filter_room_members" = "Filter room members";
 "room_participants_filter_room_members_for_dm" = "Filter members";
 "room_participants_invite_another_user" = "Search / invite by User ID, Name or email";
@@ -908,9 +913,6 @@ Tap the + to start adding people.";
 "settings_presence" = "Presence";
 "settings_presence_offline_mode" = "Offline Mode";
 "settings_presence_offline_mode_description" = "If enabled, you will always appear offline to other users, even when using the application.";
-
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";
 
 // Security settings
 "security_settings_title" = "Security";
@@ -2444,7 +2446,7 @@ Tap the + to start adding people.";
 "location_sharing_settings_toggle_title" = "Enable location sharing";
 
 "location_sharing_allow_background_location_title" = "Allow access";
-"location_sharing_allow_background_location_message" = "If you’d like to share your Live location, EachChat needs location access when the app is in the background.
+"location_sharing_allow_background_location_message" = "If you’d like to share your Live location, Element needs location access when the app is in the background.
 To enable access, tap Settings> Location and select Always";
 "location_sharing_allow_background_location_validate_action" = "Settings";
 "location_sharing_allow_background_location_cancel_action" = "Not now";
@@ -2528,7 +2530,7 @@ To enable access, tap Settings> Location and select Always";
 "user_session_push_notifications_message" = "When turned on, this session will receive push notifications.";
 "user_session_got_it" = "Got it";
 "user_session_verified_session_title" = "Verified sessions";
-"user_session_verified_session_description" = "Verified sessions are anywhere you are using EachChat after entering your passphrase or confirming your identity with another verified session.\n\nThis means that you have all the keys needed to unlock your encrypted messages and confirm to other users that you trust this session.";
+"user_session_verified_session_description" = "Verified sessions are anywhere you are using Element after entering your passphrase or confirming your identity with another verified session.\n\nThis means that you have all the keys needed to unlock your encrypted messages and confirm to other users that you trust this session.";
 "user_session_unverified_session_title" = "Unverified session";
 "user_session_unverified_session_description" = "Unverified sessions are sessions that have logged in with your credentials but not been cross-verified.\n\nYou should make especially certain that you recognise these sessions as they could represent an unauthorised use of your account.";
 "user_session_permanently_unverified_session_description" = "This session doesn't support encryption, so it can't be verified.\n\nYou won't be able to participate in rooms where encryption is enabled when using this session.\n\nFor best security and privacy, it is recommended to use Matrix clients that support encryption.";
@@ -3186,6 +3188,3 @@ To enable access, tap Settings> Location and select Always";
 "pill_message" = "Message";
 "pill_message_from" = "Message from %@";
 "pill_message_in" = "Message in %@";
-
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";

@@ -1375,6 +1375,3 @@
 "ssl_only_accept" = "Peidiwch a derbyn y dystysgrif ONIBAI bod gweinyddwr y gweinydd wedi cyhoeddi llofnod sy'n cyfateb i'r un uchod.";
 "notice_encryption_enabled_ok" = "Trodd %@ amgryptio o'r dechrau i'r diwedd ymlaen.";
 "notice_encryption_enabled_unknown_algorithm" = "Trodd %@ amgryptio o'r dechrau i'r diwedd ymlaen (algorithm anghydnabyddedig %2$@).";
-
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";

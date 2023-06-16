@@ -1588,7 +1588,7 @@
 "location_sharing_title" = "Vendndodhje";
 "ok" = "OK";
 "settings_enable_room_message_bubbles" = "Flluska mesazhesh";
-"onboarding_splash_page_4_message" = "EachChat-i është gjithashtu i goditur për në punë. Është i besuar nga entet më të sigurta të botës.";
+"onboarding_splash_page_4_message" = "Element-i është gjithashtu i goditur për në punë. Është i besuar nga entet më të sigurta të botës.";
 "onboarding_splash_page_4_title_no_pun" = "Shkëmbim mesazhesh për ekipin tuaj.";
 "onboarding_splash_page_3_message" = "I fshehtëzuar skaj më skaj dhe pa u dashur numër telefoni. Pa reklama, apo shfrytëzim të dhënash.";
 "onboarding_splash_page_3_title" = "Shkëmbim i sigurt mesazhesh.";
@@ -2516,7 +2516,7 @@
 
 // MARK: User sessions management
 
-// Parameter is the application display name (e.g. "EachChat")
+// Parameter is the application display name (e.g. "Element")
 "user_sessions_default_session_display_name" = "%@ iOS";
 "location_sharing_map_loading_error" = "S’arrihet të ngarkohet hartë\nKy shërbyes Home s’është formësuar të shfaqë harta";
 "space_invite_nav_title" = "Ftesë për në hapësirë";
@@ -2715,7 +2715,7 @@
 "key_verification_scan_qr_code_information_other_user" = "Që të verifikoni sesionin e tij, drejtojeni kamerën tuaj drejt kodit QR të shfaqur në pajisjen e tjetrit";
 "key_verification_scan_qr_code_title" = "Skanoni kodin QR";
 "device_verification_self_verify_wait_recover_secrets_additional_help" = "S’hyni dot te një sesion %@ ekzistues?";
-"device_verification_self_verify_open_on_other_device_information" = "Lypset të verifikoni këtë sesion, që të mund të lexoni historikun e mesazheve tuaj të siguruar.\n\nHapeni EachChat-in në një nga pajisjet tuaja të tjera dhe ndiqni udhëzimet.";
+"device_verification_self_verify_open_on_other_device_information" = "Lypset të verifikoni këtë sesion, që të mund të lexoni historikun e mesazheve tuaj të siguruar.\n\nHapeni Element-in në një nga pajisjet tuaja të tjera dhe ndiqni udhëzimet.";
 "device_verification_self_verify_open_on_other_device_title" = "Hapeni %@ në pajisjen tuaj tjetër";
 "room_creation_only_one_email_invite" = "Mund të ftoni vetëm një email në herë";
 "pill_message_in" = "Mesazh te %@";
@@ -2731,6 +2731,18 @@
 "key_verification_self_verify_security_upgrade_alert_title" = "Aplikacioni u përditësua";
 "settings_acceptable_use" = "Rregull Përdorimi të Pranueshëm";
 "accessibility_selected" = "përzgjedhur";
+"notice_display_name_changed_to" = "%@ ndërroi emrin e vet për në ekran si %@";
+"room_command_error_unknown_command" = "Urdhër i pavlefshëm ose i patrajtuar";
+"room_command_change_room_topic_description" = "Cakton temën e dhomës";
+"room_command_reset_user_power_level_description" = "I heq gjendjen e operatorit përdoruesit me ID-në e dhënë";
+"room_command_set_user_power_level_description" = "Përcaktoni shkallën e pushtetit së një përdoruesi";
+"room_command_unban_user_description" = "Heq dëbimin për përdoruesin me ID-në e dhënë";
+"room_command_ban_user_description" = "Dëbon përdoruesin me ID-në e dhënë";
+"room_command_kick_user_description" = "Heq nga dhoma aktuale përdoruesin me ID-në e dhënë";
+"room_command_invite_user_description" = "Fton në dhomën aktuale përdoruesin me ID-në e dhënë";
+"room_command_part_room_description" = "Dil nga dhoma";
+"room_command_join_room_description" = "Hyhet në dhomën me adresën e dhënë";
+"room_command_emote_description" = "Veprim shfaqjeje";
 
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";
+// Room commands descriptions
+"room_command_change_display_name_description" = "Kjo ndryshon nofkën tuaj në ekran";

@@ -2819,6 +2819,3 @@
 "settings_push_rules_error" = "通知の設定をアップデートする際にエラーが発生しました。もう一度オプションを切り替えてみてください。";
 "settings_presence" = "プレゼンス（ステータス表示）";
 "authentication_qr_login_failure_device_not_supported" = "この端末とのリンクはサポートしていません。";
-
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";

@@ -1928,6 +1928,3 @@
 "login_user_id_placeholder" = "Asulay n Matrix (am. @bob:matrix.org neɣ bob)";
 "login_identity_server_info" = "Matrix yettmuddu-d iqeddacen n timagit i ucuddu n yimaylen, atg. Wuɣur ttuɣalen yisulayen n Matrix. Ala https://matrix.org i yellan akka tura.";
 "login_home_server_info" = "Aqeddac-ik·im agejdan isseklas meṛṛa idiwenniyen-inek·inem d yisefka n umiḍan-inekịnem";
-
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";

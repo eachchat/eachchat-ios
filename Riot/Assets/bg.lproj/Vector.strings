@@ -1858,6 +1858,3 @@
 "open" = "Отвори";
 "joining" = "Присъединяване";
 "enable" = "Включи";
-
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";

@@ -1458,6 +1458,3 @@
 "notice_room_third_party_revoked_invite" = "%@ erabiltzaileak %@ gelara elkartzeko gonbidapena indargabetu du";
 "notice_encryption_enabled_ok" = "%@ erabiltzaileak zifratzea gaitu du.";
 "notice_encryption_enabled_unknown_algorithm" = "%1$@ erabiltzaileak zifratzea gaitu du. (%2$@ algoritmo ezezaguna).";
-
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";

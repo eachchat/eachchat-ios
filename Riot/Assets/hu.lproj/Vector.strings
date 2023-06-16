@@ -1595,7 +1595,7 @@
 
 "location_sharing_title" = "Földrajzi helyzet";
 "ok" = "OK";
-"onboarding_splash_page_4_message" = "Az EachChat megállja a helyét a munkahelyi kommunikációban is. A világ legbiztonságosabb szervezetei bíznak meg benne.";
+"onboarding_splash_page_4_message" = "Az Element megállja a helyét a munkahelyi kommunikációban is. A világ legbiztonságosabb szervezetei bíznak meg benne.";
 "onboarding_splash_page_3_message" = "Végponti titkosítással védett, és nem kell telefonszám a regiszrációhoz. Reklámok és adatbányászat nélkül.";
 "onboarding_splash_page_2_message" = "Kiválaszthatod, hogy hol legyenek a beszélgetéseid tárolva, így visszaadva neked az irányítást és a függetlenséget. Csatlakozz a Matrixhoz.";
 "onboarding_splash_page_1_message" = "Biztonságos és független kommunikáció, ami olyan biztonságos mintha valakivel négyszemközt beszélgetnél a házadban.";
@@ -2575,7 +2575,7 @@
 
 // MARK: User sessions management
 
-// Parameter is the application display name (e.g. "EachChat")
+// Parameter is the application display name (e.g. "Element")
 "user_sessions_default_session_display_name" = "%@ iOS";
 "all_chats_user_menu_accessibility_label" = "Felhasználói menü";
 "sign_out_confirmation_message" = "Biztos, hogy ki akarsz lépni?";
@@ -2733,13 +2733,10 @@
 "key_verification_scan_qr_code_information_other_session" = "A munkameneted ellenőrzéséhez irányítsd a kamerádat a másik eszközödön megjelenő QR kódra";
 "key_verification_scan_qr_code_information_other_device" = "A munkamenet ellenőrzéséhez irányítsd a kamerádat a másik eszközödön megjelenő QR kódra";
 "key_verification_scan_qr_code_information_other_user" = "A munkamenetük ellenőrzéséhez irányítsd a kamerádat az eszközükön megjelenő QR kódra";
-"device_verification_self_verify_open_on_other_device_information" = "Ennek a munkamenetnek az ellenőrzésére szükséged van a régi titkosított üzenetek olvasásához.\n\nNyisd meg az EachChatet egy másik eszközödön és kövesd az utasításokat.";
+"device_verification_self_verify_open_on_other_device_information" = "Ennek a munkamenetnek az ellenőrzésére szükséged van a régi titkosított üzenetek olvasásához.\n\nNyisd meg az Elementet egy másik eszközödön és kövesd az utasításokat.";
 "key_verification_self_verify_security_upgrade_alert_message" = "A biztonságos üzenetküldés a legutolsó fejlesztésekkel frissült. Kérjük ellenőrizzed újra az eszközt.";
 
 // Legacy to Rust security upgrade
 
 "key_verification_self_verify_security_upgrade_alert_title" = "Alkalmazás frissítve";
 "settings_acceptable_use" = "Elfogadható felhasználói feltételek";
-
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";

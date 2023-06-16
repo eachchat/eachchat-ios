@@ -1649,7 +1649,7 @@
 "onboarding_splash_page_3_title" = "Zabezpečené zasielanie správ.";
 "onboarding_splash_page_3_message" = "End-to-end šifrovanie a bez potreby telefónneho čísla. Žiadne reklamy ani zneužívanie údajov.";
 "onboarding_splash_page_4_title_no_pun" = "Zasielanie správ pre váš tím.";
-"onboarding_splash_page_4_message" = "EachChat je skvelý aj na pracovisku. Dôverujú mu najbezpečnejšie organizácie na svete.";
+"onboarding_splash_page_4_message" = "Element je skvelý aj na pracovisku. Dôverujú mu najbezpečnejšie organizácie na svete.";
 "settings_enable_room_message_bubbles" = "Správy v bublinách";
 "share_extension_failed_to_encrypt" = "Nepodarilo sa odoslať. Skontrolujte v hlavnej aplikácii nastavenia šifrovania pre túto miestnosť";
 "service_terms_modal_policy_checkbox_accessibility_hint" = "Označte, či chcete prijať %@";
@@ -2744,7 +2744,7 @@
 
 // MARK: User sessions management
 
-// Parameter is the application display name (e.g. "EachChat")
+// Parameter is the application display name (e.g. "Element")
 "user_sessions_default_session_display_name" = "%@ iOS";
 "sign_out_confirmation_message" = "Naozaj sa chcete odhlásiť?";
 
@@ -2843,7 +2843,7 @@
 "user_session_inactive_session_title" = "Neaktívne relácie";
 "user_session_unverified_session_description" = "Neoverené relácie sú relácie, do ktorých ste sa prihlásili pomocou svojich prístupových údajov, ale ktoré neboli krížovo overené.\n\nMali by ste si byť obzvlášť istí, že tieto relácie poznáte, pretože by mohli predstavovať neoprávnené použitie vášho konta.";
 "user_session_unverified_session_title" = "Neoverená relácia";
-"user_session_verified_session_description" = "Overené relácie sú všade tam, kde používate EachChat po zadaní svojho prístupového hesla alebo po potvrdení svojej totožnosti inou overenou reláciou.\n\nTo znamená, že máte všetky kľúče potrebné na odomknutie zašifrovaných správ a potvrdenie pre ostatných používateľov, že tejto relácii dôverujete.";
+"user_session_verified_session_description" = "Overené relácie sú všade tam, kde používate Element po zadaní svojho prístupového hesla alebo po potvrdení svojej totožnosti inou overenou reláciou.\n\nTo znamená, že máte všetky kľúče potrebné na odomknutie zašifrovaných správ a potvrdenie pre ostatných používateľov, že tejto relácii dôverujete.";
 "user_session_verified_session_title" = "Overené relácie";
 "user_session_got_it" = "Rozumiem";
 "key_verification_alert_body" = "Skontrolujte, či je vaše konto bezpečné.";
@@ -2943,6 +2943,20 @@
 
 "key_verification_self_verify_security_upgrade_alert_title" = "Aplikácia bola aktualizovaná";
 "settings_acceptable_use" = "Zásady prijateľného používania";
+"room_command_error_unknown_command" = "Neplatný alebo nespracovaný príkaz";
+"room_command_discard_session_description" = "Vynúti zrušenie aktuálnej relácie odchádzajúcej skupiny v zašifrovanej miestnosti";
+"room_command_change_room_topic_description" = "Nastaví tému aktuálnej miestnosti";
+"room_command_reset_user_power_level_description" = "Zruší stav moderátora používateľovi so zadaným ID";
+"room_command_set_user_power_level_description" = "Určuje úroveň oprávnenia pre zadaného používateľa";
+"room_command_unban_user_description" = "Zruší zákaz vstúpiť používateľovi so zadaným ID";
+"room_command_ban_user_description" = "Zakáže vstup používateľovi so zadaným ID";
+"room_command_kick_user_description" = "Odstráni používateľa s daným ID z tejto miestnosti";
+"room_command_invite_user_description" = "Pozve zadaného používateľa do aktuálnej miestnosti";
+"room_command_part_room_description" = "Opustiť miestnosť";
+"room_command_join_room_description" = "Pripojí sa do miestnosti s danou adresou";
+"room_command_emote_description" = "Zobrazí akciu";
 
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";
+// Room commands descriptions
+"room_command_change_display_name_description" = "Mení vaše zobrazované meno / prezývku";
+"notice_display_name_changed_to" = "%@ zmenil/a svoje zobrazované meno na %@";
+"poll_timeline_loading" = "Načítavanie…";

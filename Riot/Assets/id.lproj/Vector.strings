@@ -1722,7 +1722,7 @@
 "location_sharing_title" = "Lokasi";
 "ok" = "OKE";
 "settings_enable_room_message_bubbles" = "Gelembung pesan";
-"onboarding_splash_page_4_message" = "EachChat juga bagus untuk tempat kerja. Terpercayai oleh organisasi paling aman di dunia.";
+"onboarding_splash_page_4_message" = "Element juga bagus untuk tempat kerja. Terpercayai oleh organisasi paling aman di dunia.";
 "onboarding_splash_page_4_title_no_pun" = "Perpesanan untuk tim Anda.";
 "onboarding_splash_page_3_message" = "Terenkripsi secara ujung ke ujung dan tidak memerlukan nomor telepon. Tanpa iklan atau penambangan data.";
 "onboarding_splash_page_3_title" = "Perpesanan aman.";
@@ -2748,7 +2748,7 @@
 
 // MARK: User sessions management
 
-// Parameter is the application display name (e.g. "EachChat")
+// Parameter is the application display name (e.g. "Element")
 "user_sessions_default_session_display_name" = "%@ iOS";
 
 // MARK: Sign out warning
@@ -2848,7 +2848,7 @@
 "user_session_unverified_session_description" = "Sesi yang belum diverifikasi adalah sesi yang telah masuk dengan kredensial Anda tetapi belum diverifikasi secara silang.\n\nAnda seharusnya yakin bahwa Anda mengenal sesi ini karena mereka bisa saja berarti seseorang menggunakan akun Anda.";
 "user_session_unverified_session_title" = "Sesi belum diverifikasi";
 "user_session_verified_session_title" = "Sesi terverifikasi";
-"user_session_verified_session_description" = "Sesi terverifikasi ada di mana pun Anda menggunakan EachChat setelah memasukkan frasa sandi atau mengonfirmasi identitas Anda dengan sesi terverifikasi lainnya.\n\nIni berarti Anda memiliki semua kunci yang diperlukan untuk membuka kunci pesan terenkripsi dan mengonfirmasi kepada pengguna lain bahwa Anda memercayai sesi ini.";
+"user_session_verified_session_description" = "Sesi terverifikasi ada di mana pun Anda menggunakan Element setelah memasukkan frasa sandi atau mengonfirmasi identitas Anda dengan sesi terverifikasi lainnya.\n\nIni berarti Anda memiliki semua kunci yang diperlukan untuk membuka kunci pesan terenkripsi dan mengonfirmasi kepada pengguna lain bahwa Anda memercayai sesi ini.";
 "user_session_got_it" = "Mengerti";
 "key_verification_alert_body" = "Periksa untuk memastikan akun Anda aman.";
 
@@ -2947,6 +2947,20 @@
 
 "key_verification_self_verify_security_upgrade_alert_title" = "Aplikasi diperbarui";
 "settings_acceptable_use" = "Kebijakan Penggunaan yang Dapat Diterima";
+"room_command_error_unknown_command" = "Perintah tidak valid atau tidak ditangani";
+"room_command_discard_session_description" = "Memaksa sesi kelompok outbound saat ini di ruang terenkripsi untuk dihapus";
+"room_command_change_room_topic_description" = "Menetapkan topik ruangan";
+"room_command_reset_user_power_level_description" = "Menurunkan pengguna dengan ID yang ditetapkan";
+"room_command_set_user_power_level_description" = "Definisikan tingkat daya pengguna";
+"room_command_unban_user_description" = "Menghilangkan cekalan pengguna dengan ID yang ditetapkan";
+"room_command_ban_user_description" = "Mencekal pengguna dengan ID yang ditetapkan";
+"room_command_kick_user_description" = "Mengeluarkan pengguna dengan ID yang ditetapkan dari ruangan ini";
+"room_command_invite_user_description" = "Mengundang pengguna dengan OD yang ditetapkan ke ruangan saat ini";
+"room_command_part_room_description" = "Tinggalkan ruangan";
+"room_command_join_room_description" = "Bergabung dengan ruangan dengan alamat yang ditetapkan";
+"room_command_emote_description" = "Menampilkan tindakan";
 
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";
+// Room commands descriptions
+"room_command_change_display_name_description" = "Mengubah nama tampilan Anda";
+"notice_display_name_changed_to" = "%@ mengubah nama tampilannya menjadi %@";
+"poll_timeline_loading" = "Memuat...";
