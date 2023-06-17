@@ -4551,7 +4551,7 @@ public class VectorL10n: NSObject {
   public static var onboardingPersonalizationSkip: String { 
     return VectorL10n.tr("Vector", "onboarding_personalization_skip") 
   }
-  /// I already have an account
+  /// Start
   public static var onboardingSplashLoginButtonTitle: String { 
     return VectorL10n.tr("Vector", "onboarding_splash_login_button_title") 
   }

@@ -2068,7 +2068,8 @@
 "attachment_unsupported_preview_title" = "无法预览";
 "onboarding_use_case_personal_messaging" = "朋友和家人";
 "onboarding_splash_page_3_title" = "安全的信息传输。";
-"onboarding_splash_login_button_title" = "我已拥有一个账户";
+//"onboarding_splash_login_button_title" = "我已拥有一个账户";
+"onboarding_splash_login_button_title" = "开始";
 "saving" = "保存中";
 
 // Activities

@@ -100,7 +100,8 @@
 
 // MARK: Onboarding
 "onboarding_splash_register_button_title" = "Create account";
-"onboarding_splash_login_button_title" = "I already have an account";
+//"onboarding_splash_login_button_title" = "I already have an account";
+"onboarding_splash_login_button_title" = "Start";
 "onboarding_splash_page_1_title" = "Own your conversations.";
 "onboarding_splash_page_1_message" = "Secure and independent communication that gives you the same level of privacy as a face-to-face conversation in your own home.";
 "onboarding_splash_page_2_title" = "You’re in control.";

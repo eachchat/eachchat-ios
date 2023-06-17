@@ -1237,7 +1237,8 @@
 "onboarding_splash_page_2_message" = "選擇儲存對話的位置，讓您擁有控制權與獨立性。透過 Matrix 連結。";
 "onboarding_splash_page_2_title" = "一切都在您的掌控之中。";
 "onboarding_splash_page_1_title" = "掌握您的對話。";
-"onboarding_splash_login_button_title" = "我已經有帳號了";
+//"onboarding_splash_login_button_title" = "我已經有帳號了";
+"onboarding_splash_login_button_title" = "開始";
 
 // MARK: Onboarding
 "onboarding_splash_register_button_title" = "建立帳號";
