@@ -16,7 +16,7 @@
 
 
 // App identity
-BUNDLE_DISPLAY_NAME = EachChat
+BUNDLE_DISPLAY_NAME = 亿洽
 BASE_BUNDLE_IDENTIFIER =ai.workly.eachchat
 APPLICATION_GROUP_IDENTIFIER = group.ai.workly.eachchat
 APPLICATION_SCHEME = eachchat
