@@ -561,7 +561,7 @@
 "room_message_reply_to_short_placeholder" = "Stuur een antwoord…";
 // String for App Store
 "store_short_description" = "Veilig en gedecentraliseerd chatten en bellen";
-"store_full_description" = "EachChat is een nieuw type messenger en samenwerkings app die:\n\n1. Jou de controle geeft om je privacy te behouden\n2. Jou laat communiceren met iedereen in het Matrix-netwerk, en zelfs daarbuiten door integratie met apps zoals Slack\n3. Jou beschermt tegen reclame, datamining, achterdeurtjes en ommuurde netwerken\n4. Jou beveiligt door eind-tot-eind versleuteling, met kruislings ondertekenen om anderen te verifiëren\n\nEachChat is compleet anders dan andere messengers en samenwerkings-apps, omdat het gedecentraliseerd en open source is.\n\nMet EachChat kan je zelf hosten - of een host kiezen - zodat je privacy, eigendom en controle hebt over je gegevens en gesprekken. Het geeft je toegang tot een open netwerk; je zit dus niet vast aan het praten met alleen andere EachChat-personen. En het is zeer veilig.\n\nEachChat is hiertoe in staat omdat het werkt op basis van Matrix - de standaard voor open, gedecentraliseerde communicatie. \n\nEachChat geeft je de controle door je te laten kiezen wie jouw gesprekken host. Vanuit de EachChat app kan je kiezen om op verschillende manieren te hosten:\n\n1. Neem een gratis account op de publieke server matrix.org\n2. Host het zelf, jouw account door draait op je eigen server\n3. Laat ons het hosten, meld je aan voor een account op een aangepaste server bij het EachChat Matrix Services hosting platform\n\nWaarom kies je voor EachChat?\n\nEIGENAAR VAN JE GEGEVENS: Jij bepaalt waar je gegevens en berichten worden bewaard. Jij bent de eigenaar en hebt de controle, niet een of andere MEGACORP die je gegevens mijnt of toegang geeft aan derden.\n\nOPEN MESSAGING EN SAMENWERKING: Jij kunt met iedereen in het Matrix-netwerk chatten, of ze nu EachChat of een andere Matrix-app gebruiken, en zelfs als ze een ander messaging-systeem gebruiken zoals Slack, IRC of XMPP.\n\nSUPER-VEILIG: Echte eind-tot-eind versleuteling (alleen degenen in de conversatie kunnen berichten ontsleutelen), en kruislings ondertekenen om de apparaten van gespreksdeelnemers te verifiëren.\n\nCOMPLETE COMMUNICATIE: Berichten, spraak- en videogesprekken, bestandsdeling, schermdeling en een heleboel integraties, bots en widgets. Bouw kamers, Spaces, blijf in contact en krijg het gedaan.\n\nOVERAL WAAR U BENT: Blijf in contact waar je ook bent met volledig gesynchroniseerde berichtgeschiedenis op al je apparaten en op het web op https://element.io/app.";
+"store_full_description" = "Element is een nieuw type messenger en samenwerkings app die:\n\n1. Jou de controle geeft om je privacy te behouden\n2. Jou laat communiceren met iedereen in het Matrix-netwerk, en zelfs daarbuiten door integratie met apps zoals Slack\n3. Jou beschermt tegen reclame, datamining, achterdeurtjes en ommuurde netwerken\n4. Jou beveiligt door eind-tot-eind versleuteling, met kruislings ondertekenen om anderen te verifiëren\n\nElement is compleet anders dan andere messengers en samenwerkings-apps, omdat het gedecentraliseerd en open source is.\n\nMet Element kan je zelf hosten - of een host kiezen - zodat je privacy, eigendom en controle hebt over je gegevens en gesprekken. Het geeft je toegang tot een open netwerk; je zit dus niet vast aan het praten met alleen andere Element-personen. En het is zeer veilig.\n\nElement is hiertoe in staat omdat het werkt op basis van Matrix - de standaard voor open, gedecentraliseerde communicatie. \n\nElement geeft je de controle door je te laten kiezen wie jouw gesprekken host. Vanuit de Element app kan je kiezen om op verschillende manieren te hosten:\n\n1. Neem een gratis account op de publieke server matrix.org\n2. Host het zelf, jouw account door draait op je eigen server\n3. Laat ons het hosten, meld je aan voor een account op een aangepaste server bij het Element Matrix Services hosting platform\n\nWaarom kies je voor Element?\n\nEIGENAAR VAN JE GEGEVENS: Jij bepaalt waar je gegevens en berichten worden bewaard. Jij bent de eigenaar en hebt de controle, niet een of andere MEGACORP die je gegevens mijnt of toegang geeft aan derden.\n\nOPEN MESSAGING EN SAMENWERKING: Jij kunt met iedereen in het Matrix-netwerk chatten, of ze nu Element of een andere Matrix-app gebruiken, en zelfs als ze een ander messaging-systeem gebruiken zoals Slack, IRC of XMPP.\n\nSUPER-VEILIG: Echte eind-tot-eind versleuteling (alleen degenen in de conversatie kunnen berichten ontsleutelen), en kruislings ondertekenen om de apparaten van gespreksdeelnemers te verifiëren.\n\nCOMPLETE COMMUNICATIE: Berichten, spraak- en videogesprekken, bestandsdeling, schermdeling en een heleboel integraties, bots en widgets. Bouw kamers, Spaces, blijf in contact en krijg het gedaan.\n\nOVERAL WAAR U BENT: Blijf in contact waar je ook bent met volledig gesynchroniseerde berichtgeschiedenis op al je apparaten en op het web op https://element.io/app.";
 "auth_login_single_sign_on" = "Aanmelden met enkele aanmelding";
 "auth_accept_policies" = "Lees het beleid van deze homeserver en kies om te aanvaarden:";
 "auth_autodiscover_invalid_response" = "Ongeldig server-ontdekkings-antwoord";
@@ -1698,7 +1698,7 @@
 "location_sharing_title" = "Locatie";
 "ok" = "OK";
 "settings_enable_room_message_bubbles" = "Berichtbubbels";
-"onboarding_splash_page_4_message" = "EachChat is ook zeer geschikt voor op de werkvloer. Het wordt vertrouwd door 's werelds veiligste organisaties.";
+"onboarding_splash_page_4_message" = "Element is ook zeer geschikt voor op de werkvloer. Het wordt vertrouwd door 's werelds veiligste organisaties.";
 "onboarding_splash_page_4_title_no_pun" = "Berichten voor jouw team.";
 "onboarding_splash_page_3_message" = "End-to-end versleuteld en geen telefoonnummer vereist. Geen advertenties of datamining.";
 "onboarding_splash_page_3_title" = "Veilig berichtenverkeer.";
@@ -2485,7 +2485,7 @@
 "confirm" = "Bevestigen";
 "location_sharing_allow_background_location_cancel_action" = "Niet nu";
 "location_sharing_allow_background_location_validate_action" = "Instellingen";
-"location_sharing_allow_background_location_message" = "Als je live locatie wilt delen, heeft EachChat locatietoegang nodig wanneer de app op de achtergrond is. Om toegang in te schakelen, tik je op Instellingen> Locatie en selecteer je Altijd";
+"location_sharing_allow_background_location_message" = "Als je live locatie wilt delen, heeft Element locatietoegang nodig wanneer de app op de achtergrond is. Om toegang in te schakelen, tik je op Instellingen> Locatie en selecteer je Altijd";
 "location_sharing_allow_background_location_title" = "Toegang te verlenen";
 "settings_labs_enable_live_location_sharing" = "Live locatie delen - deel huidige locatie (actieve ontwikkeling, en tijdelijk, locaties blijven bestaan in kamergeschiedenis)";
 /* The %@ placeholder will be replaced with the integration manager's URL. */
@@ -2746,7 +2746,7 @@
 
 // MARK: User sessions management
 
-// Parameter is the application display name (e.g. "EachChat")
+// Parameter is the application display name (e.g. "Element")
 "user_sessions_default_session_display_name" = "%@ iOS";
 "all_chats_user_menu_accessibility_label" = "Gebruikersmenu";
 "voice_broadcast_playback_loading_error" = "Kan deze spraakuitzending niet afspelen.";
@@ -2784,7 +2784,7 @@
 "authentication_qr_login_scan_subtitle" = "Positioneer de QR-code in het vierkant hieronder";
 "authentication_qr_login_scan_title" = "Scan QR-code";
 "authentication_qr_login_display_step2" = "Selecteer 'Aanmelden met QR-code'";
-"authentication_qr_login_display_step1" = "Open EachChat op je andere apparaat";
+"authentication_qr_login_display_step1" = "Open Element op je andere apparaat";
 "authentication_qr_login_display_subtitle" = "Scan de onderstaande QR-code met je apparaat dat is uitgelogd.";
 "authentication_qr_login_display_title" = "Een apparaat koppelen";
 "authentication_qr_login_start_display_qr" = "QR-code weergeven op dit apparaat";
@@ -2792,7 +2792,7 @@
 "authentication_qr_login_start_step4" = "Selecteer 'Toon QR-code op dit apparaat'";
 "authentication_qr_login_start_step3" = "Selecteer 'Een apparaat koppelen'";
 "authentication_qr_login_start_step2" = "Ga naar Instellingen -> Beveiliging en privacy";
-"authentication_qr_login_start_step1" = "Open EachChat op je andere apparaat";
+"authentication_qr_login_start_step1" = "Open Element op je andere apparaat";
 "authentication_qr_login_start_subtitle" = "Gebruik de camera op dit apparaat om de QR-code te scannen die op je andere apparaat wordt weergegeven:";
 "authentication_qr_login_start_title" = "Scan QR-code";
 "authentication_login_with_qr" = "Log in met QR-code";
@@ -2800,6 +2800,3 @@
 "manage_session_sign_out_other_sessions" = "Bij alle andere sessies afmelden";
 "user_sessions_hide_location_info" = "Verberg IP-adres";
 "user_sessions_show_location_info" = "Toon IP-adres";
-
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";

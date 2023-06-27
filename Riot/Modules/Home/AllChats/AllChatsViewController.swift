@@ -880,7 +880,6 @@ extension AllChatsViewController: SplitViewMasterViewControllerProtocol {
     
     func showOnboardingFlow() {
         MXLog.debug("[AllChatsViewController] showOnboardingFlow")
-        //
         self.showOnboardingFlowAndResetSessionFlags(true)
     }
 

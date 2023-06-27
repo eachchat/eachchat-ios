@@ -1511,7 +1511,7 @@
 "search_filter_placeholder" = "필터";
 "onboarding_use_case_existing_server_button" = "서버에 연결";
 "onboarding_use_case_community_messaging" = "커뮤니티";
-"onboarding_splash_page_4_message" = "EachChat는 직장에서도 좋습니다. 세계에서 가장 안전한 조직에서 신뢰합니다.";
+"onboarding_splash_page_4_message" = "Element는 직장에서도 좋습니다. 세계에서 가장 안전한 조직에서 신뢰합니다.";
 "onboarding_splash_page_4_title_no_pun" = "당신의 팀을 위한 메세징.";
 "onboarding_splash_page_3_message" = "종단 간 암호화(E2EE) 되며 전화 번호가 필요하지 않습니다. 광고나 수집되는 데이터가 없습니다.";
 "onboarding_splash_page_3_title" = "보안 메세징.";
@@ -1632,6 +1632,3 @@
 "room_preview_decline_invitation_options" = "초대를 거부하거나 친구를 차단하시겠습니까?";
 "threads_beta_information_link" = "더 알아보기";
 "threads_beta_title" = "스레드";
-
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";

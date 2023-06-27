@@ -3291,7 +3291,7 @@ public class VectorL10n: NSObject {
   public static var locationSharingAllowBackgroundLocationCancelAction: String { 
     return VectorL10n.tr("Vector", "location_sharing_allow_background_location_cancel_action") 
   }
-  /// If you’d like to share your Live location, EachChat needs location access when the app is in the background.\nTo enable access, tap Settings> Location and select Always
+  /// If you’d like to share your Live location, Element needs location access when the app is in the background.\nTo enable access, tap Settings> Location and select Always
   public static var locationSharingAllowBackgroundLocationMessage: String { 
     return VectorL10n.tr("Vector", "location_sharing_allow_background_location_message") 
   }
@@ -4551,7 +4551,7 @@ public class VectorL10n: NSObject {
   public static var onboardingPersonalizationSkip: String { 
     return VectorL10n.tr("Vector", "onboarding_personalization_skip") 
   }
-  /// I already have an account
+  /// Start
   public static var onboardingSplashLoginButtonTitle: String { 
     return VectorL10n.tr("Vector", "onboarding_splash_login_button_title") 
   }
@@ -5370,6 +5370,18 @@ public class VectorL10n: NSObject {
   /// New Chat
   public static var roomCreationTitle: String { 
     return VectorL10n.tr("Vector", "room_creation_title") 
+  }
+  /// Start DM anyway
+  public static var roomCreationUserNotFoundPromptInviteAction: String { 
+    return VectorL10n.tr("Vector", "room_creation_user_not_found_prompt_invite_action") 
+  }
+  /// Unable to find profiles for this Matrix ID. Would you like to start a DM anyway?
+  public static var roomCreationUserNotFoundPromptMessage: String { 
+    return VectorL10n.tr("Vector", "room_creation_user_not_found_prompt_message") 
+  }
+  /// Confirmation
+  public static var roomCreationUserNotFoundPromptTitle: String { 
+    return VectorL10n.tr("Vector", "room_creation_user_not_found_prompt_title") 
   }
   /// A room is already being created. Please wait.
   public static var roomCreationWaitForCreation: String { 
@@ -6375,6 +6387,10 @@ public class VectorL10n: NSObject {
   public static var roomParticipantsInviteAnotherUser: String { 
     return VectorL10n.tr("Vector", "room_participants_invite_another_user") 
   }
+  /// Invite anyway
+  public static var roomParticipantsInviteAnyway: String { 
+    return VectorL10n.tr("Vector", "room_participants_invite_anyway") 
+  }
   /// Malformed ID. Should be an email address or a Matrix ID like '@localpart:domain'
   public static var roomParticipantsInviteMalformedId: String { 
     return VectorL10n.tr("Vector", "room_participants_invite_malformed_id") 
@@ -6394,6 +6410,10 @@ public class VectorL10n: NSObject {
   /// Are you sure you want to invite %@ to %@?
   public static func roomParticipantsInvitePromptToMsg(_ p1: String, _ p2: String) -> String {
     return VectorL10n.tr("Vector", "room_participants_invite_prompt_to_msg", p1, p2)
+  }
+  /// Unable to find profiles for this Matrix ID. Are you sure you want to invite %@ to %@?
+  public static func roomParticipantsInviteUnknownParticipantPromptToMsg(_ p1: String, _ p2: String) -> String {
+    return VectorL10n.tr("Vector", "room_participants_invite_unknown_participant_prompt_to_msg", p1, p2)
   }
   /// INVITED
   public static var roomParticipantsInvitedSection: String { 
@@ -7510,10 +7530,6 @@ public class VectorL10n: NSObject {
   /// Display Name
   public static var settingsDisplayName: String { 
     return VectorL10n.tr("Vector", "settings_display_name") 
-  }
-  /// Access https://account.yunify.com for changing your password.
-  public static var settingsEachchatChangePassword: String { 
-    return VectorL10n.tr("Vector", "settings_eachchat_change_password") 
   }
   /// Email
   public static var settingsEmailAddress: String { 
@@ -9103,7 +9119,7 @@ public class VectorL10n: NSObject {
   public static var userSessionVerifiedAdditionalInfo: String { 
     return VectorL10n.tr("Vector", "user_session_verified_additional_info") 
   }
-  /// Verified sessions are anywhere you are using EachChat after entering your passphrase or confirming your identity with another verified session.\n\nThis means that you have all the keys needed to unlock your encrypted messages and confirm to other users that you trust this session.
+  /// Verified sessions are anywhere you are using Element after entering your passphrase or confirming your identity with another verified session.\n\nThis means that you have all the keys needed to unlock your encrypted messages and confirm to other users that you trust this session.
   public static var userSessionVerifiedSessionDescription: String { 
     return VectorL10n.tr("Vector", "user_session_verified_session_description") 
   }

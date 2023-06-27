@@ -909,6 +909,3 @@
 "ssl_unexpected_existing_expl" = "El certificat ha canviat respecte al que el teu telèfon hi havia confiat. Això es MOLT INUSUAL. Es recomana que NO ACCEPTIS aquest nou certificat.";
 "ssl_expected_existing_expl" = "El certificat ha canviat del prèviament confiat a un que no es confiable. El servidor pot haver renovat el certificat. Posa't en contacte amb l'administrador del servidor per obtenir l'empremta digital desitjada.";
 "ssl_only_accept" = "NOMÉS accepteu el certificat si l'administrador del servidor ha publicat una empremta digital que coincideixi amb l'anterior.";
-
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";

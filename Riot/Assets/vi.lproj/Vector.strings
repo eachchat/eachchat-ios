@@ -1994,6 +1994,3 @@
 "onboarding_splash_register_button_title" = "Tạo danh khoản";
 "accessibility_button_label" = "nút";
 "enable" = "Bật";
-
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";

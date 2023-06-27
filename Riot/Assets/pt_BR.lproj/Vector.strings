@@ -1573,7 +1573,7 @@
 "ok" = "OK";
 "onboarding_splash_page_1_message" = "Comunicação segura e independente que lhe dá o mesmo nível de privacidade que uma conversa face-a-face em sua própria casa.";
 "settings_enable_room_message_bubbles" = "Bolhas de mensagem";
-"onboarding_splash_page_4_message" = "EachChat também é ótimo para o lugar de trabalho. Ele é confiado pelas organizações mais seguras do mundo.";
+"onboarding_splash_page_4_message" = "Element também é ótimo para o lugar de trabalho. Ele é confiado pelas organizações mais seguras do mundo.";
 "onboarding_splash_page_4_title_no_pun" = "Mensageria para seu time.";
 "onboarding_splash_page_3_message" = "Encriptado ponta-a-ponta e nenhum número de telefone requerido. Sem publicidade ou datamining.";
 "onboarding_splash_page_3_title" = "Mensageria segura.";
@@ -2522,7 +2522,7 @@
 
 // MARK: User sessions management
 
-// Parameter is the application display name (e.g. "EachChat")
+// Parameter is the application display name (e.g. "Element")
 "user_sessions_default_session_display_name" = "%@ iOS";
 "sign_out_confirmation_message" = "Tem certeza que você quer fazer signout?";
 
@@ -2621,12 +2621,11 @@
 "user_session_inactive_session_title" = "Sessões inativas";
 "user_session_unverified_session_description" = "Sessões não-verificadas são sessões que você tem feito login com suas credenciais mas não têm sido verificadas cruzado.\n\nVocê devia especialmente se certificar que você reconhece estas sessões já que elas podiam representar um uso não-autorizado de sua conta.";
 "user_session_unverified_session_title" = "Sessão não-verificada";
-"user_session_verified_session_description" = "Sessões verificadas são onde quer que você esteja usando EachChat depois de entrar sua frasepasse ou confirmar sua identidade com uma outra sessões verificada.\n\nIsto significa que você tem todas as chaves necessárias para destrancar suas mensagens encriptadas e confirmar a outras(os) usuárias(os) que você confia nesta sessão.";
+"user_session_verified_session_description" = "Sessões verificadas são onde quer que você esteja usando Element depois de entrar sua frasepasse ou confirmar sua identidade com uma outra sessões verificada.\n\nIsto significa que você tem todas as chaves necessárias para destrancar suas mensagens encriptadas e confirmar a outras(os) usuárias(os) que você confia nesta sessão.";
 "user_session_verified_session_title" = "Sessões verificadas";
 "user_session_got_it" = "Entendido";
 "user_other_session_permanently_unverified_additional_info" = "Esta sessão não suporta encriptação e assim não pode ser verificada.";
 "voice_broadcast_time_left" = "%@ restando";
-
 "key_verification_alert_body" = "Revise para assegurar que sua conta está segura.";
 
 // Unverified sessions
@@ -2653,6 +2652,5 @@
 "wysiwyg_composer_format_action_inline_code" = "Aplicar formato de código inline";
 "wysiwyg_composer_format_action_link" = "Aplicar formato de link";
 "user_other_session_security_recommendation_title" = "Outras sessões";
-
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";
+"room_creation_only_one_email_invite" = "Você só pode convidar um e-mail de cada vez";
+"accessibility_selected" = "selecionado";

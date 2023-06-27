@@ -93,11 +93,14 @@ struct OnboardingSplashScreen: View {
     /// The main action buttons.
     var buttons: some View {
         VStack(spacing: 12) {
-            Button { viewModel.send(viewAction: .register) } label: {
-                Text(VectorL10n.onboardingSplashRegisterButtonTitle)
+            /*
+            if BuildSettings.serverConfigDefaultHomeserverUrlString.contains("chat.yunify.com") {
+                Button { viewModel.send(viewAction: .register) } label: {
+                    Text(VectorL10n.onboardingSplashRegisterButtonTitle)
+                }
+                .buttonStyle(PrimaryActionButtonStyle())
             }
-            .buttonStyle(PrimaryActionButtonStyle())
-            
+            */
             Button { viewModel.send(viewAction: .login) } label: {
                 Text(VectorL10n.onboardingSplashLoginButtonTitle)
                     .font(theme.fonts.body)

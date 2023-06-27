@@ -96,36 +96,26 @@ final class OnboardingCoordinator: NSObject, OnboardingCoordinatorProtocol {
     // MARK: - Public
     
     func start() {
-        if BuildSettings.serverConfigDefaultHomeserverUrlString != "" {
+        if authenticationService.softLogoutCredentials != nil {
+            //  show the splash screen and a loading indicator
+            if BuildSettings.authScreenShowRegister {
+                showSplashScreen()
+            } else {
+                showEmptyScreen()
+            }
             startLoading()
             if BuildSettings.onboardingEnableNewAuthenticationFlow {
                 beginAuthentication(with: .login) { [weak self] in
                     self?.stopLoading()
                 }
-            }
-        } else {
-            if authenticationService.softLogoutCredentials != nil {
-                //  show the splash screen and a loading indicator
-                if BuildSettings.authScreenShowRegister {
-                    showSplashScreen()
-                } else {
-                    showEmptyScreen()
-                }
-                startLoading()
-                if BuildSettings.onboardingEnableNewAuthenticationFlow {
-                    beginAuthentication(with: .login) { [weak self] in
-                        self?.stopLoading()
-                    }
-                } else {
-                    showLegacyAuthenticationScreen(forceAsRootModule: true)
-                }
-            } else if BuildSettings.authScreenShowRegister {
-                showSplashScreen()
             } else {
-                showLegacyAuthenticationScreen()
+                showLegacyAuthenticationScreen(forceAsRootModule: true)
             }
+        } else if BuildSettings.authScreenShowRegister {
+            showSplashScreen()
+        } else {
+            showLegacyAuthenticationScreen()
         }
-       
     }
     
     func toPresentable() -> UIViewController {

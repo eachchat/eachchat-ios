@@ -2440,7 +2440,7 @@
 
 // MARK: User sessions management
 
-// Parameter is the application display name (e.g. "EachChat")
+// Parameter is the application display name (e.g. "Element")
 "user_sessions_default_session_display_name" = "%@ iOS";
 "location_sharing_live_lab_promotion_activation" = "Virkja deilingu rauntímastaðsetninga";
 "location_sharing_live_timer_incoming" = "Í beinni til %@";
@@ -2479,6 +2479,3 @@
 "authentication_qr_login_scan_title" = "Skanna QR-kóða";
 "authentication_qr_login_start_title" = "Skanna QR-kóða";
 "authentication_login_with_qr" = "Skrá inn með QR-kóða";
-
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";

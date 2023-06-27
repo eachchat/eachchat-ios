@@ -6,6 +6,12 @@
 	<string>development</string>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
+		<string>applinks:yunify.com</string>
+		<string>webcredentials:yunify.com</string>
+		<string>applinks:yiqia.com</string>
+		<string>webcredentials:yiqia.com</string>
+		<string>applinks:each.chat</string>
+		<string>webcredentials:each.chat</string>
 		<string>applinks:www.vector.im</string>
 		<string>applinks:vector.im</string>
 		<string>applinks:riot.im</string>

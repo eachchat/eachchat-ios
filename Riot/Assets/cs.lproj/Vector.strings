@@ -666,6 +666,3 @@
 "onboarding_celebration_button" = "Pojďme na to";
 "onboarding_celebration_message" = "Vaše předvolby byly uloženy.";
 "onboarding_celebration_title" = "Vše je připraveno!";
-
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";

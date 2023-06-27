@@ -664,7 +664,7 @@
 "key_backup_setup_intro_manual_export_action" = "Exporter les clés manuellement";
 // String for App Store
 "store_short_description" = "Discussions et appels sécurisés et décentralisés";
-"store_full_description" = "EachChat est un nouveau type d’application de messagerie et de collaboration qui :\n\n1. Vous permet de préserver votre vie privée \n2. Vous permet de communiquer avec n’importe qui sur le réseau Matrix, et même plus en intégrant des applications telles que Slack \n3. Vous protège des pubs, du de l’extraction de vos données, des porte dérobées et des silos\n4. Vous protège avec le chiffrement de bout en bout et la signature croisée pour vérifier l’identité des autres\n\nEachChat est totalement différent des autres applications de messagerie et de collaboration puisqu’il est décentralisé et open source.\n\nEachChat vous permet de vous auto-héberger, ou de choisir un serveur, pour vous permettre de garder la main sur votre confidentialité, vos données et vous conversations. Il vous permet d’accéder à un réseau ouvert, de sorte à ce que vous ne soyez pas limité aux discussions avec les autres utilisateurs d’EachChat exclusivement. Il est très sécurisé.\n\nEachChat s’appuie sur Matrix - la norme pour les communications ouvertes et décentralisées.\n\nEachChat vous permet de choisir qui héberge vos conversations. Depuis l’application EachChat, vous pouvez choisir votre fournisseur de plusieurs manières :\n\n1. Inscrivez vous gratuitement sur les serveurs publics de matrix.org\n2. Hébergez votre compte sur votre propre serveur\n3. Obtenez un serveur personnalisé en vous abonnant a la plateforme d’hébergement EachChat Matrix Services\n\nPourquoi choisir EachChat ?\n\nVOS DONNÉES VOUS APPARTIENNENT : vous décidez où stocker vos données et messages. Ils vous appartiennent et vous les maîtrisez. Aucune multinationale ne viendra extraire vos données pour les envoyer au plus offrant.\n\nMESSAGERIE ET COLLABORATION OUVERTES : vous pouvez discuter avec tout le réseau Matrix, qu’ils utilisent EachChat ou une autre application Matrix, même s’ils utilisent une autre plateforme de messagerie telle que Slack, IRC ou XMPP.\n\nULTRA SÉCURISÉ : chiffrement de bout en bout (seuls les membres d’une conversation peuvent déchiffrer les messages), et signature croisée pour vérifier les appareils de vos interlocuteurs.\n\nTOUTES VOS COMMUNICATIONS : messagerie, appels audio et vidéo, partage de fichier, partage d’écran et un grand nombre d’intégrations, robots et widgets. Participez à des salons, des communautés, restez en contact et faites avancer vos projets.\n\nPARTOUT AVEC VOUS : votre historique reste synchronisé entre tous vos appareils et sur le web sur https://element.io/app.";
+"store_full_description" = "Element est un nouveau type d’application de messagerie et de collaboration qui :\n\n1. Vous permet de préserver votre vie privée \n2. Vous permet de communiquer avec n’importe qui sur le réseau Matrix, et même plus en intégrant des applications telles que Slack \n3. Vous protège des pubs, du de l’extraction de vos données, des porte dérobées et des silos\n4. Vous protège avec le chiffrement de bout en bout et la signature croisée pour vérifier l’identité des autres\n\nElement est totalement différent des autres applications de messagerie et de collaboration puisqu’il est décentralisé et open source.\n\nElement vous permet de vous auto-héberger, ou de choisir un serveur, pour vous permettre de garder la main sur votre confidentialité, vos données et vous conversations. Il vous permet d’accéder à un réseau ouvert, de sorte à ce que vous ne soyez pas limité aux discussions avec les autres utilisateurs d’Element exclusivement. Il est très sécurisé.\n\nElement s’appuie sur Matrix - la norme pour les communications ouvertes et décentralisées.\n\nElement vous permet de choisir qui héberge vos conversations. Depuis l’application Element, vous pouvez choisir votre fournisseur de plusieurs manières :\n\n1. Inscrivez vous gratuitement sur les serveurs publics de matrix.org\n2. Hébergez votre compte sur votre propre serveur\n3. Obtenez un serveur personnalisé en vous abonnant a la plateforme d’hébergement Element Matrix Services\n\nPourquoi choisir Element ?\n\nVOS DONNÉES VOUS APPARTIENNENT : vous décidez où stocker vos données et messages. Ils vous appartiennent et vous les maîtrisez. Aucune multinationale ne viendra extraire vos données pour les envoyer au plus offrant.\n\nMESSAGERIE ET COLLABORATION OUVERTES : vous pouvez discuter avec tout le réseau Matrix, qu’ils utilisent Element ou une autre application Matrix, même s’ils utilisent une autre plateforme de messagerie telle que Slack, IRC ou XMPP.\n\nULTRA SÉCURISÉ : chiffrement de bout en bout (seuls les membres d’une conversation peuvent déchiffrer les messages), et signature croisée pour vérifier les appareils de vos interlocuteurs.\n\nTOUTES VOS COMMUNICATIONS : messagerie, appels audio et vidéo, partage de fichier, partage d’écran et un grand nombre d’intégrations, robots et widgets. Participez à des salons, des communautés, restez en contact et faites avancer vos projets.\n\nPARTOUT AVEC VOUS : votre historique reste synchronisé entre tous vos appareils et sur le web sur https://element.io/app.";
 "auth_login_single_sign_on" = "Se connecter avec l’authentification unique";
 "room_message_unable_open_link_error_message" = "Impossible d’ouvrir le lien.";
 "auth_autodiscover_invalid_response" = "Réponse de découverte du serveur d’accueil non valide";
@@ -1572,7 +1572,7 @@
 /* Note: The placeholder is for the contents of analytics_prompt_terms_link_new_user */
 "analytics_prompt_terms_new_user" = "Vous pouvez lire nos conditions d’utilisation %@.";
 "analytics_prompt_message_upgrade" = "Vous aviez consenti précédemment à partager des rapports d’utilisation avec nous. Désormais, pour nous aider à comprendre comment les gens utilisent cette application sur plusieurs appareils, nous allons générer un identifiant aléatoire commun à tous vos appareils.";
-"analytics_prompt_message_new_user" = "Aidez nous à identifier les problèmes et améliorer %@ en envoyant des rapports d’usage anonymes. Pour comprendre de quelle manière les gens utilisent EachChat sur plusieurs appareils, nous créeront un identifiant aléatoire commun à tous vos appareils.";
+"analytics_prompt_message_new_user" = "Aidez nous à identifier les problèmes et améliorer %@ en envoyant des rapports d’usage anonymes. Pour comprendre de quelle manière les gens utilisent Element sur plusieurs appareils, nous créeront un identifiant aléatoire commun à tous vos appareils.";
 
 // Analytics
 "analytics_prompt_title" = "Aidez à améliorer %@";
@@ -1611,7 +1611,7 @@
 
 "location_sharing_title" = "Localisation";
 "settings_enable_room_message_bubbles" = "Messages en bulles";
-"onboarding_splash_page_4_message" = "EachChat est parfaite pour le bureau. Les sociétés aux plus gros besoins de sécurité lui font confiance.";
+"onboarding_splash_page_4_message" = "Element est parfaite pour le bureau. Les sociétés aux plus gros besoins de sécurité lui font confiance.";
 "onboarding_splash_page_4_title_no_pun" = "Une messagerie pour votre équipe.";
 "onboarding_splash_page_3_message" = "Chiffrée de bout en bout, aucun numéro de téléphone requis. Pas de pub ni d’exploitation de données.";
 "onboarding_splash_page_3_title" = "Messagerie sécurisée.";
@@ -2290,7 +2290,7 @@
 "authentication_registration_title" = "Créez votre compte";
 "room_access_settings_screen_upgrade_alert_title" = "Mettre à niveau le salon";
 "room_access_settings_screen_upgrade_required" = "Mise à niveau requise";
-"location_sharing_allow_background_location_message" = "Si vous voulez partager votre localisation en temps réel, EachChat doit avoir accès à vos données de localisation lorsque l’application est en arrière-plan. Pour lui donner accès, rendez-vous dans Réglages > Position et sélectionnez Toujours";
+"location_sharing_allow_background_location_message" = "Si vous voulez partager votre localisation en temps réel, Element doit avoir accès à vos données de localisation lorsque l’application est en arrière-plan. Pour lui donner accès, rendez-vous dans Réglages > Position et sélectionnez Toujours";
 "settings_timeline" = "HISTORIQUE";
 "authentication_server_selection_login_title" = "Connexion à un serveur d’accueil";
 "message_reply_to_sender_sent_their_live_location" = "Localisation en temps réel.";
@@ -2557,7 +2557,7 @@
 
 // MARK: User sessions management
 
-// Parameter is the application display name (e.g. "EachChat")
+// Parameter is the application display name (e.g. "Element")
 "user_sessions_default_session_display_name" = "%@ iOS";
 "all_chats_user_menu_accessibility_label" = "Menu utilisateur";
 "sign_out_confirmation_message" = "Êtes vous sûr de vouloir vous déconnecter ?";
@@ -2584,7 +2584,7 @@
 "authentication_qr_login_scan_subtitle" = "Placez le QR code dans le carré ci-dessous";
 "authentication_qr_login_scan_title" = "Scannez le QR code";
 "authentication_qr_login_display_step2" = "Sélectionnez « Se connecter avec un QR code »";
-"authentication_qr_login_display_step1" = "Ouvrez EachChat sur votre autre appareil";
+"authentication_qr_login_display_step1" = "Ouvrez Element sur votre autre appareil";
 "authentication_qr_login_display_subtitle" = "Scannez le QR code ci-dessous avec l’appareil qui n’est pas connecté.";
 "authentication_qr_login_display_title" = "Appairer un appareil";
 "authentication_qr_login_start_display_qr" = "Afficher le QR code sur cet appareil";
@@ -2592,7 +2592,7 @@
 "authentication_qr_login_start_step4" = "Sélectionnez « Afficher le QR code sur cet appareil »";
 "authentication_qr_login_start_step3" = "Sélectionnez « Appairer un appareil »";
 "authentication_qr_login_start_step2" = "Allez dans Réglages -> Confidentialité et sécurité";
-"authentication_qr_login_start_step1" = "Ouvrez EachChat sur votre autre appareil";
+"authentication_qr_login_start_step1" = "Ouvrez Element sur votre autre appareil";
 "authentication_qr_login_start_subtitle" = "Utilisez l’appareil photo de cet appareil pour scanner le QR code affiché sur votre autre appareil :";
 "authentication_qr_login_start_title" = "Scanner le QR code";
 "authentication_login_with_qr" = "Se connecter avec un QR code";
@@ -2612,7 +2612,7 @@
 "wysiwyg_composer_format_action_code_block" = "Bloc de code";
 "wysiwyg_composer_start_action_stickers" = "Autocollants";
 "user_session_rename_session_title" = "Renommer les sessions";
-"user_session_verified_session_description" = "Les sessions vérifiées sont toutes celles où vous vous êtes connecté à EachChat grâce à vos identifiants ou celles pour lesquelles vous avez confirmé votre identité à l'aide d'une autre session.\n\nCela signifie que vous êtes en possession de toutes les clés requises pour déchiffrer vos messages et montrer aux autres utilisateurs que vous faites confiance à cette session.";
+"user_session_verified_session_description" = "Les sessions vérifiées sont toutes celles où vous vous êtes connecté à Element grâce à vos identifiants ou celles pour lesquelles vous avez confirmé votre identité à l'aide d'une autre session.\n\nCela signifie que vous êtes en possession de toutes les clés requises pour déchiffrer vos messages et montrer aux autres utilisateurs que vous faites confiance à cette session.";
 "poll_history_loading_text" = "Afficher les sondages";
 "voice_message_broadcast_in_progress_title" = "Impossible de démarrer l'enregistrement vocal";
 "home_context_menu_mark_as_unread" = "Marquer comme non lu";
@@ -2733,6 +2733,3 @@
 // MARK: Password policy errors
 "password_policy_too_short_pwd_error" = "Mot de passe trop court";
 "accessibility_selected" = "sélectionné";
-
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";

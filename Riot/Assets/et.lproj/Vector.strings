@@ -1535,7 +1535,7 @@
 "location_sharing_title" = "Asukoht";
 "ok" = "Sobib";
 "settings_enable_room_message_bubbles" = "Jutumullid";
-"onboarding_splash_page_4_message" = "EachChat sobib ideaalselt kasutamiseks töökeskkonnas. Ta on kasutusel ka mitmetes üliturvalistes organisatsioonides.";
+"onboarding_splash_page_4_message" = "Element sobib ideaalselt kasutamiseks töökeskkonnas. Ta on kasutusel ka mitmetes üliturvalistes organisatsioonides.";
 "onboarding_splash_page_4_title_no_pun" = "Sõnumisuhtlus sinu tiimi või kogukonna jaoks.";
 "onboarding_splash_page_3_message" = "Tagatud on andmete läbiv krüptimine ning oma telefoninumbrit ei pea sa jagama. Pole reklaame ega sinu andmete kogumist.";
 "onboarding_splash_page_3_title" = "Turvaline sõnumisuhtlus.";
@@ -2266,7 +2266,7 @@
 "directory_search_results_more_than" = ">%2$@ kohta leidsin %1$tu tulemust";
 /* The placeholder %1$tu will be replaced with a number and %2$@ with the user's search terms. */
 "directory_search_results" = "%2$@ kohta leidsin %1$tu tulemust";
-"location_sharing_allow_background_location_message" = "Kui sa soovid praegust asukohta jagada reaalajas, siis EachChat vajab taustal töötades õigusi asukohta tuvastada. Selleks klõpsi Seadistused > Asukoht ning vali Alati";
+"location_sharing_allow_background_location_message" = "Kui sa soovid praegust asukohta jagada reaalajas, siis Element vajab taustal töötades õigusi asukohta tuvastada. Selleks klõpsi Seadistused > Asukoht ning vali Alati";
 "location_sharing_allow_background_location_cancel_action" = "Mitte praegu";
 "location_sharing_allow_background_location_validate_action" = "Seadistused";
 "location_sharing_allow_background_location_title" = "Luba ligipääs asukohale";
@@ -2546,7 +2546,7 @@
 
 // MARK: User sessions management
 
-// Parameter is the application display name (e.g. "EachChat")
+// Parameter is the application display name (e.g. "Element")
 "user_sessions_default_session_display_name" = "%@ iOS";
 "voice_broadcast_playback_loading_error" = "Selle ringhäälingukõne esitamine ei õnnestu.";
 "voice_broadcast_already_in_progress_message" = "Sa juba salvestad ringhäälingukõnet. Uue alustamiseks palun lõpeta eelmine salvestus.";
@@ -2672,7 +2672,7 @@
 "key_verification_scan_qr_code_information_other_session" = "Suuna oma seadme kaamera teises seadmes kuvatavale QR-koodile ja verifitseeri oma sessioon";
 "key_verification_scan_qr_code_title" = "Loe QR-koodi";
 "device_verification_self_verify_wait_recover_secrets_additional_help" = "Sul puudub ligipääs olemasolevale %@ sessioonile?";
-"device_verification_self_verify_open_on_other_device_information" = "Oma krüptitud sõnumite ajaloo lugemiseks pead selle seadme verifitseerima.\n\nAva EachChat või mõni muu ühilduv Matrixi klient on teises seadmes ja järgi juhendit.";
+"device_verification_self_verify_open_on_other_device_information" = "Oma krüptitud sõnumite ajaloo lugemiseks pead selle seadme verifitseerima.\n\nAva Element või mõni muu ühilduv Matrixi klient on teises seadmes ja järgi juhendit.";
 "device_verification_self_verify_open_on_other_device_title" = "Ava %@ oma teises seadmes";
 "room_creation_only_one_email_invite" = "E-posti teel saad saata kutseid vaid ükshaaval";
 "launch_loading_delay_warning" = "Selleks võib natuke rohkem aega kuluda.\nTänud ootamast.";
@@ -2692,6 +2692,20 @@
 // Legacy to Rust security upgrade
 
 "key_verification_self_verify_security_upgrade_alert_title" = "Rakendus on uuendatud";
+"room_command_error_unknown_command" = "Vigane või määratlemata käsk";
+"room_command_discard_session_description" = "Sunnib loobuma praeguse krüptitud jututoa rühmavestluse seansist";
+"room_command_change_room_topic_description" = "Määra jututoa teema";
+"room_command_reset_user_power_level_description" = "Eemalda antud tunnusega kasutajalt haldusõigused selles jututoas";
+"room_command_set_user_power_level_description" = "Määra kasutaja õigused";
+"room_command_unban_user_description" = "Taasta ligipääs antud tunnusega kasutajale";
+"room_command_ban_user_description" = "Keela ligipääs antud tunnusega kasutajale";
+"room_command_kick_user_description" = "Müksa selle tunnusega kasutaja jututoast välja";
+"room_command_invite_user_description" = "Kutsub nimetatud kasutajatunnusega kasutaja sellesse jututuppa";
+"room_command_part_room_description" = "Lahku jututoast";
+"room_command_join_room_description" = "Liitu sellise aadressiga jututoaga";
+"room_command_emote_description" = "Näitab tegevusi";
 
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";
+// Room commands descriptions
+"room_command_change_display_name_description" = "Muudab sinu kuvatavat nime";
+"notice_display_name_changed_to" = "%@ muutis oma kuvatavaks nimeks %@";
+"poll_timeline_loading" = "Laadin...";

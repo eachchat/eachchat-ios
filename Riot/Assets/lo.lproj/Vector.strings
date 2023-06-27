@@ -2516,7 +2516,3 @@
 "notice_room_third_party_revoked_invite_by_you" = "ທ່ານໄດ້ຖອນຄຳເຊີນສຳລັບ %@ ເຂົ້າຮ່ວມຫ້ອງແລ້ວ";
 "notice_room_third_party_registered_invite_by_you" = "ທ່ານຍອມຮັບຄຳເຊີນສຳລັບ %@";
 "notice_room_third_party_invite_by_you_for_dm" = "ທ່ານໄດ້ເຊີນ %@";
-
-
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";

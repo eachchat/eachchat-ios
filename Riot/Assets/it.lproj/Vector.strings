@@ -1573,7 +1573,7 @@
 "location_sharing_title" = "Posizione";
 "ok" = "OK";
 "settings_enable_room_message_bubbles" = "Messaggi";
-"onboarding_splash_page_4_message" = "EachChat è ottimo anche per i luoghi di lavoro. È considerato affidabile dalle più sicure organizzazioni del mondo.";
+"onboarding_splash_page_4_message" = "Element è ottimo anche per i luoghi di lavoro. È considerato affidabile dalle più sicure organizzazioni del mondo.";
 "onboarding_splash_page_4_title_no_pun" = "Messaggistica per la tua squadra.";
 "onboarding_splash_page_3_message" = "Crittografia end-to-end e nessun numero di telefono richiesto. Niente pubblicità o raccolta di dati.";
 "onboarding_splash_page_3_title" = "Messaggistica sicura.";
@@ -2521,7 +2521,7 @@
 
 // MARK: User sessions management
 
-// Parameter is the application display name (e.g. "EachChat")
+// Parameter is the application display name (e.g. "Element")
 "user_sessions_default_session_display_name" = "%@ iOS";
 "sign_out_confirmation_message" = "Vuoi davvero disconnetterti?";
 
@@ -2618,7 +2618,7 @@
 "user_session_inactive_session_title" = "Sessioni inattive";
 "user_session_unverified_session_description" = "Le sessioni non verificate sono quelle in cui è stato fatto l'accesso con le tue credenziali, ma che non sono state verificate.\n\nDovresti essere particolarmente sicuro di riconoscere queste sessioni dato che potrebbero rappresentare un uso non autorizzato del tuo account.";
 "user_session_unverified_session_title" = "Sessione non verificata";
-"user_session_verified_session_description" = "Le sessioni verificate sono ovunque usi EachChat dopo l'inserimento della password o la conferma della tua identità con un'altra sessione verificata.\n\nCiò significa che hai tutte le chiavi necessarie per sbloccare i tuoi messaggi cifrati e per confermare agli altri utenti che ti fidi di questa sessione.";
+"user_session_verified_session_description" = "Le sessioni verificate sono ovunque usi Element dopo l'inserimento della password o la conferma della tua identità con un'altra sessione verificata.\n\nCiò significa che hai tutte le chiavi necessarie per sbloccare i tuoi messaggi cifrati e per confermare agli altri utenti che ti fidi di questa sessione.";
 "user_session_verified_session_title" = "Sessioni verificate";
 "user_session_got_it" = "Capito";
 "voice_broadcast_tile" = "Trasmissione vocale";
@@ -2720,6 +2720,20 @@
 
 "key_verification_self_verify_security_upgrade_alert_title" = "App aggiornata";
 "settings_acceptable_use" = "Politica di utilizzo accettabile";
+"room_command_error_unknown_command" = "Comando non valido o non gestito";
+"room_command_discard_session_description" = "Forza l'eliminazione dell'attuale sessione di gruppo in uscita in una stanza criptata";
+"room_command_change_room_topic_description" = "Imposta l'argomento della stanza";
+"room_command_kick_user_description" = "Rimuove l'utente per ID da questa stanza";
+"room_command_reset_user_power_level_description" = "Toglie privilegi all'utente per ID";
+"room_command_set_user_power_level_description" = "Definisci il livello di poteri di un utente";
+"room_command_unban_user_description" = "Riammette l'utente per ID";
+"room_command_ban_user_description" = "Bandisce l'utente per ID";
+"room_command_invite_user_description" = "Invita l'utente per ID alla stanza attuale";
+"room_command_part_room_description" = "Esci dalla stanza";
+"room_command_join_room_description" = "Entra nella stanza con l'indirizzo scelto";
+"room_command_emote_description" = "Mostra l'azione";
 
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";
+// Room commands descriptions
+"room_command_change_display_name_description" = "Cambia il tuo nome visualizzato";
+"notice_display_name_changed_to" = "%@ ha cambiato il suo nome visualizzato in %@";
+"poll_timeline_loading" = "Caricamento...";

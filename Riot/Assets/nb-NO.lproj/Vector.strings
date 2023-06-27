@@ -2008,6 +2008,3 @@
 "ssl_logout_account" = "Logg ut";
 "ssl_expected_existing_expl" = "Sertifikatet er endret fra et tidligere klarert til et som ikke er klarert. Serveren kan ha fornyet sertifikatet. Kontakt serveradministratoren for forventet fingeravtrykk.";
 "ssl_only_accept" = "Godta KUN sertifikatet hvis serveradministratoren har publisert et fingeravtrykk som samsvarer med det over.";
-
-/// settings of eachchat
-"settings_eachchat_change_password" = "Access https://account.yunify.com for changing your password.";
