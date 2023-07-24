@@ -47,8 +47,7 @@ struct AuthenticationLoginScreen: View {
                     .frame(height: 1)
                     .padding(.bottom, 22)
                 
-                if viewModel.viewState.homeserver.showLoginForm && !BuildSettings.serverConfigDefaultHomeserverUrlString.contains(viewModel.viewState.homeserver.address) {
-                    loginForm
+                if viewModel.viewState.homeserver.showLoginForm && !BuildSettings.serverConfigDefaultHomeserverUrlString.contains("chat.yunify.com") {
                     if viewModel.viewState.homeserver.showLoginForm, viewModel.viewState.showSSOButtons {
                         Text(VectorL10n.or)
                             .foregroundColor(theme.colors.secondaryContent)
@@ -56,7 +55,7 @@ struct AuthenticationLoginScreen: View {
                     }
                 }
 
-                if viewModel.viewState.homeserver.showQRLogin && !BuildSettings.serverConfigDefaultHomeserverUrlString.contains(viewModel.viewState.homeserver.address) {
+                if viewModel.viewState.homeserver.showQRLogin && !BuildSettings.serverConfigDefaultHomeserverUrlString.contains("chat.yunify.com") {
                     qrLoginButton
                 }
                 

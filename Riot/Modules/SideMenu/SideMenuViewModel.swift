@@ -104,7 +104,7 @@ final class SideMenuViewModel: SideMenuViewModelType {
         if BuildSettings.sideMenuShowInviteFriends {
             sideMenuItems += [.inviteFriends]
         }
-        if BuildSettings.serverConfigDefaultHomeserverUrlString.contains(RiotSettings.shared.homeserverUrlString) {
+        if BuildSettings.serverConfigDefaultHomeserverUrlString.contains("chat.yunify.com") {
             sideMenuItems += [.settings]
         } else {
             sideMenuItems += [
