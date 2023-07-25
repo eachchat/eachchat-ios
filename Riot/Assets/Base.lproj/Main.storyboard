@@ -535,7 +535,7 @@
         <segue reference="rok-Xg-Mhx"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="launch_screen_logo" width="114" height="48"/>
+        <image name="launch_screen_logo" width="512" height="512"/>
         <image name="search_icon" width="24" height="24"/>
         <image name="settings_icon" width="24" height="24"/>
         <image name="tab_favourites" width="24" height="24"/>

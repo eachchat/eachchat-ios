@@ -55,13 +55,15 @@ struct OnboardingSplashScreen: View {
                     }
                 }
                 .offset(x: pageOffset(in: geometry))
+                .hidden()
                 
                 Spacer()
                 
                 OnboardingSplashScreenPageIndicator(pageCount: pageCount,
                                                     pageIndex: viewModel.pageIndex)
-                    .frame(width: geometry.size.width)
-                    .padding(.bottom)
+                .frame(width: geometry.size.width)
+                .padding(.bottom)
+                .hidden()
                 
                 Spacer()
                 
@@ -69,7 +71,7 @@ struct OnboardingSplashScreen: View {
                     .frame(width: geometry.size.width)
                     .padding(.bottom, OnboardingMetrics.actionButtonBottomPadding)
                     .padding(.bottom, geometry.safeAreaInsets.bottom > 0 ? 0 : 16)
-                
+                    .hidden()
                 Spacer()
                     .frame(height: OnboardingMetrics.spacerHeight(in: geometry))
             }
@@ -81,7 +83,8 @@ struct OnboardingSplashScreen: View {
                     .onEnded { handleDragGestureEnded($0, viewSize: geometry.size) }
             )
         }
-        .accentColor(theme.colors.accent)
+        .accentColor(theme.colors.background)
+       // .accentColor(theme.colors.accent)
         .navigationBarHidden(true)
         .onAppear {
             startTimer()
@@ -93,14 +96,11 @@ struct OnboardingSplashScreen: View {
     /// The main action buttons.
     var buttons: some View {
         VStack(spacing: 12) {
-            /*
-            if BuildSettings.serverConfigDefaultHomeserverUrlString.contains("chat.yunify.com") {
-                Button { viewModel.send(viewAction: .register) } label: {
-                    Text(VectorL10n.onboardingSplashRegisterButtonTitle)
-                }
-                .buttonStyle(PrimaryActionButtonStyle())
+            Button { viewModel.send(viewAction: .register) } label: {
+                Text(VectorL10n.onboardingSplashRegisterButtonTitle)
             }
-            */
+            .buttonStyle(PrimaryActionButtonStyle())
+
             Button { viewModel.send(viewAction: .login) } label: {
                 Text(VectorL10n.onboardingSplashLoginButtonTitle)
                     .font(theme.fonts.body)

@@ -82,7 +82,7 @@ struct OnboardingSplashScreenViewState: BindableState, CustomDebugStringConverti
             OnboardingSplashScreenPageContent(title: page4Title,
                                               message: VectorL10n.onboardingSplashPage4Message,
                                               image: Asset.Images.onboardingSplashScreenPage4,
-                                              darkImage: Asset.Images.onboardingSplashScreenPage4Dark)
+                                             darkImage: Asset.Images.onboardingSplashScreenPage4Dark)
         ]
         bindings = OnboardingSplashScreenBindings()
     }

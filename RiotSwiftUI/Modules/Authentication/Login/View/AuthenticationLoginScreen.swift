@@ -75,6 +75,7 @@ struct AuthenticationLoginScreen: View {
         .background(theme.colors.background.ignoresSafeArea())
         .alert(item: $viewModel.alertInfo) { $0.alert }
         .accentColor(theme.colors.accent)
+        .navigationBarBackButtonHidden()
     }
     
     /// The header containing a Welcome Back title.
