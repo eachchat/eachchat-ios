@@ -161,7 +161,9 @@ public class Timeline_1: Timeline {
         let path_path: CAKeyframeAnimation = {
             let keyframeAnimation = CAKeyframeAnimation()
             keyframeAnimation.keyPath = "path"
+            /*
             keyframeAnimation.values = [CGPathCreateWithSVGString("M0,7.2c0,-3.976,3.224,-7.2,7.2,-7.2 26.51,0,48,21.49,48,48 0,3.976,-3.224,7.2,-7.2,7.2 -3.976,0,-7.2,-3.224,-7.2,-7.2 0,-18.557,-15.043,-33.6,-33.6,-33.6 -3.976,0,-7.2,-3.224,-7.2,-7.2zM0,7.2")!, CGPathCreateWithSVGString("M0,8.513c0,-4.702,3.812,-8.513,8.513,-8.513 31.346,0,56.757,25.411,56.757,56.757 0,4.702,-3.812,8.513,-8.513,8.513 -4.702,0,-8.513,-3.812,-8.513,-8.513 0,-21.942,-17.787,-39.73,-39.73,-39.73 -4.702,0,-8.513,-3.812,-8.513,-8.513zM0,8.513")!, CGPathCreateWithSVGString("M0,7.2c0,-3.976,3.224,-7.2,7.2,-7.2 26.51,0,48,21.49,48,48 0,3.976,-3.224,7.2,-7.2,7.2 -3.976,0,-7.2,-3.224,-7.2,-7.2 0,-18.557,-15.043,-33.6,-33.6,-33.6 -3.976,0,-7.2,-3.224,-7.2,-7.2zM0,7.2")!]
+            */
             keyframeAnimation.keyTimes = [0, 0.5, 1]
             keyframeAnimation.timingFunctions = [.easeInEaseOut, .easeInEaseOut]
             keyframeAnimation.duration = duration
@@ -213,7 +215,9 @@ public class Timeline_1: Timeline {
         let path_path_1: CAKeyframeAnimation = {
             let keyframeAnimation = CAKeyframeAnimation()
             keyframeAnimation.keyPath = "path"
+            /*
             keyframeAnimation.values = [CGPathCreateWithSVGString("M55.2,48c0,3.976,-3.224,7.2,-7.2,7.2 -26.51,0,-48,-21.49,-48,-48 0,-3.976,3.224,-7.2,7.2,-7.2 3.976,0,7.2,3.224,7.2,7.2 0,18.557,15.043,33.6,33.6,33.6 3.976,0,7.2,3.224,7.2,7.2zM55.2,48")!, CGPathCreateWithSVGString("M65.27,56.757c0,4.702,-3.812,8.513,-8.513,8.513 -31.346,0,-56.757,-25.411,-56.757,-56.757 0,-4.702,3.812,-8.513,8.513,-8.513 4.702,0,8.513,3.812,8.513,8.513 0,21.942,17.787,39.73,39.73,39.73 4.702,0,8.513,3.812,8.513,8.513zM65.27,56.757")!, CGPathCreateWithSVGString("M55.2,48c0,3.976,-3.224,7.2,-7.2,7.2 -26.51,0,-48,-21.49,-48,-48 0,-3.976,3.224,-7.2,7.2,-7.2 3.976,0,7.2,3.224,7.2,7.2 0,18.557,15.043,33.6,33.6,33.6 3.976,0,7.2,3.224,7.2,7.2zM55.2,48")!]
+            */
             keyframeAnimation.keyTimes = [0, 0.5, 1]
             keyframeAnimation.timingFunctions = [.easeInEaseOut, .easeInEaseOut]
             keyframeAnimation.duration = duration
@@ -265,7 +269,9 @@ public class Timeline_1: Timeline {
         let path_path_2: CAKeyframeAnimation = {
             let keyframeAnimation = CAKeyframeAnimation()
             keyframeAnimation.keyPath = "path"
+            /*
             keyframeAnimation.values = [CGPathCreateWithSVGString("M7.2,55.2c-3.976,0,-7.2,-3.224,-7.2,-7.2 0,-26.51,21.49,-48,48,-48 3.976,0,7.2,3.224,7.2,7.2 0,3.976,-3.224,7.2,-7.2,7.2 -18.557,0,-33.6,15.043,-33.6,33.6 0,3.976,-3.224,7.2,-7.2,7.2zM7.2,55.2")!, CGPathCreateWithSVGString("M8.513,65.27c-4.702,0,-8.513,-3.812,-8.513,-8.513 0,-31.346,25.411,-56.757,56.757,-56.757 4.702,0,8.513,3.812,8.513,8.513 0,4.702,-3.812,8.513,-8.513,8.513 -21.942,0,-39.73,17.787,-39.73,39.73 0,4.702,-3.812,8.513,-8.513,8.513zM8.513,65.27")!, CGPathCreateWithSVGString("M7.2,55.2c-3.976,0,-7.2,-3.224,-7.2,-7.2 0,-26.51,21.49,-48,48,-48 3.976,0,7.2,3.224,7.2,7.2 0,3.976,-3.224,7.2,-7.2,7.2 -18.557,0,-33.6,15.043,-33.6,33.6 0,3.976,-3.224,7.2,-7.2,7.2zM7.2,55.2")!]
+             */
             keyframeAnimation.keyTimes = [0, 0.5, 1]
             keyframeAnimation.timingFunctions = [.easeInEaseOut, .easeInEaseOut]
             keyframeAnimation.duration = duration
@@ -317,7 +323,9 @@ public class Timeline_1: Timeline {
         let path_path_3: CAKeyframeAnimation = {
             let keyframeAnimation = CAKeyframeAnimation()
             keyframeAnimation.keyPath = "path"
+            /*
             keyframeAnimation.values = [CGPathCreateWithSVGString("M48,0c3.976,0,7.2,3.224,7.2,7.2 0,26.51,-21.49,48,-48,48 -3.976,0,-7.2,-3.224,-7.2,-7.2 0,-3.976,3.224,-7.2,7.2,-7.2 18.557,0,33.6,-15.043,33.6,-33.6 0,-3.976,3.224,-7.2,7.2,-7.2zM48,0")!, CGPathCreateWithSVGString("M56.757,0c4.702,0,8.513,3.812,8.513,8.513 0,31.346,-25.411,56.757,-56.757,56.757 -4.702,0,-8.513,-3.812,-8.513,-8.513 0,-4.702,3.812,-8.513,8.513,-8.513 21.942,0,39.73,-17.787,39.73,-39.73 0,-4.702,3.812,-8.513,8.513,-8.513zM56.757,0")!, CGPathCreateWithSVGString("M48,0c3.976,0,7.2,3.224,7.2,7.2 0,26.51,-21.49,48,-48,48 -3.976,0,-7.2,-3.224,-7.2,-7.2 0,-3.976,3.224,-7.2,7.2,-7.2 18.557,0,33.6,-15.043,33.6,-33.6 0,-3.976,3.224,-7.2,7.2,-7.2zM48,0")!]
+            */
             keyframeAnimation.keyTimes = [0, 0.5, 1]
             keyframeAnimation.timingFunctions = [.easeInEaseOut, .easeInEaseOut]
             keyframeAnimation.duration = duration

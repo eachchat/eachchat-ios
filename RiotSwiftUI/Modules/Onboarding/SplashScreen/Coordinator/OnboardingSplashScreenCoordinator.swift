@@ -54,6 +54,9 @@ final class OnboardingSplashScreenCoordinator: OnboardingSplashScreenCoordinator
     // MARK: - Public
 
     func start() {
+        self.startLoading()
+        self.completion?(.login)
+        /*
         MXLog.debug("[OnboardingSplashScreenCoordinator] did start.")
         onboardingSplashScreenViewModel.completion = { [weak self] result in
             MXLog.debug("[OnboardingSplashScreenCoordinator] OnboardingSplashScreenViewModel did complete with result: \(result).")
@@ -66,6 +69,7 @@ final class OnboardingSplashScreenCoordinator: OnboardingSplashScreenCoordinator
                 self.completion?(result)
             }
         }
+        */
     }
     
     func toPresentable() -> UIViewController {
