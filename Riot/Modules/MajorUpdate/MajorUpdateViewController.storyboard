@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oj3-Ba-D5H">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oj3-Ba-D5H">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,13 +11,13 @@
         <!--Major Update View Controller-->
         <scene sceneID="0NG-cI-DUp">
             <objects>
-                <viewController extendedLayoutIncludesOpaqueBars="YES" automaticallyAdjustsScrollViewInsets="NO" id="oj3-Ba-D5H" customClass="MajorUpdateViewController" customModule="EachChat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController extendedLayoutIncludesOpaqueBars="YES" automaticallyAdjustsScrollViewInsets="NO" id="oj3-Ba-D5H" customClass="MajorUpdateViewController" customModule="Riot" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3k0-50-Vx9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Skx-kI-brb">
-                                <rect key="frame" x="0.0" y="48" width="414" height="848"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hXv-5X-Jug">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="420.5"/>
@@ -70,13 +70,13 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We're excited to announce we've changed name! Your app is up to date and you're signed in to your account." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qGD-FL-x5l">
                                                         <rect key="frame" x="20" y="193" width="374" height="57.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                        <color key="textColor" systemColor="darkTextColor"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wTa-n9-hnS">
                                                         <rect key="frame" x="0.0" y="290.5" width="414" height="110"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwX-kQ-rWD" customClass="RoundedButton" customModule="EachChat" customModuleProvider="target">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwX-kQ-rWD" customClass="RoundedButton" customModule="Riot" customModuleProvider="target">
                                                                 <rect key="frame" x="20" y="0.0" width="374" height="50"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="50" id="Qb1-t1-eVR"/>
@@ -93,7 +93,7 @@
                                                                     <action selector="learnMoreButtonAction:" destination="oj3-Ba-D5H" eventType="touchUpInside" id="OFW-zp-uty"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxG-Q7-Y6u" userLabel="Continue">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxG-Q7-Y6u" userLabel="Continue">
                                                                 <rect key="frame" x="20" y="60" width="374" height="50"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="50" id="PcO-gz-cEJ"/>
@@ -163,7 +163,6 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="YXt-eJ-QZy"/>
                         <color key="backgroundColor" red="0.94509803920000002" green="0.96078431369999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="Skx-kI-brb" secondAttribute="bottom" id="BUH-5s-pRT"/>
@@ -171,6 +170,7 @@
                             <constraint firstItem="YXt-eJ-QZy" firstAttribute="trailing" secondItem="Skx-kI-brb" secondAttribute="trailing" id="Wad-zN-5zG"/>
                             <constraint firstItem="YXt-eJ-QZy" firstAttribute="top" secondItem="Skx-kI-brb" secondAttribute="top" id="ijo-av-Weg"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="YXt-eJ-QZy"/>
                     </view>
                     <connections>
                         <outlet property="disclosureImageView" destination="DRi-Zy-VhL" id="zAE-OT-R5f"/>
@@ -190,10 +190,7 @@
     </scenes>
     <resources>
         <image name="disclosure_icon" width="6" height="12"/>
-        <image name="launch_screen_logo" width="512" height="512"/>
+        <image name="launch_screen_logo" width="240" height="240"/>
         <image name="old_logo" width="50" height="61"/>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

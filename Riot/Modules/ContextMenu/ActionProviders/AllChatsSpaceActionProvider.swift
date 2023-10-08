@@ -131,7 +131,7 @@ class AllChatsSpaceActionProvider {
     
     private var leaveSpaceAction: UIAction {
         UIAction(title: VectorL10n.allChatsEditMenuLeaveSpace(spaceName),
-                 image: UIImage(systemName: "rectangle.portrait.and.arrow.right"),
+                 image: UIImage(systemName: "rectangle.portrait.and.arrow.right.fill"),
                  attributes: .destructive) { [weak self] action in
             guard let self = self else { return }
             

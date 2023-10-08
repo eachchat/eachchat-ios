@@ -619,7 +619,7 @@
 "skip" = "略過";
 "close" = "關閉";
 "store_promotional_text" = "開放網路上的隱私保護聊天和協作應用程式。去中心化機制讓您可自行管控。沒有資料探勘、沒有後門，也不會被第三方存取。";
-"store_full_description" = "億洽 是一套新型的通訊和協作應用程式，它提供下列功能：\n\n1. 您可以自行掌控隱私\n2. 可以與 Matrix 網路中的任何人進行通訊，甚至可以與 Slack 等應用程式整合\n3. 保護您免受廣告、資料探勘、後門和封閉平台的侵害\n4. 透過端到端加密和交叉簽署來驗證彼此，互相確保安全\n\n億洽 是去中心化的開源軟體，因此與其他通訊和協作應用程式完全不同。\n\n億洽 允許您自行架設（或選擇託管）伺服器，使您可針對隱私權，所有權以及對資料和對話內容的完整控制權。您可以連線到所有開放的網路，所以您不是只能與其他 億洽 使用者聊天。而且還非常安全。\n\n億洽 之所以能夠做到所有這些目標，是因為它使用 Matrix（一套開放、去中心化的通訊標準）運作。\n\n億洽 讓您可以自行選擇要將對話放在哪一台伺服器來讓您可自行控制自己的訊息和資料。在 億洽 應用程式中，您可以選擇以不同方式託管您的訊息：\n\n1. 在 matrix.org 公開伺服器註冊免費帳號\n2. 使用自行架設的硬體主機上的伺服器來註冊帳號\n3. 訂閱 億洽 Matrix Services 代管平台，註冊自己的伺服器\n\n為什麼要選擇 億洽？\n\n自己擁有自己資料：由您決定將資料與訊息保留在何處。您自己擁有並管理這些資料，而不用讓某些「超大型企業」來探勘您的資料，或將資料提供給第三方。\n\n開放的通訊與協作機制：您可以與 Matrix 網路中的任何人聊天，不管他們使用的是 億洽 還是其他 Matrix 應用程式，甚至他們也可以使用像 Slack 、IRC 或 XMPP 之類的其他通訊系統。\n\n超級安全：真正的端對端加密（只有對話中的人才能解開訊息內容），並進行交叉簽署以驗證對話參與者的設備。\n\n完整的通訊：傳訊息、進行語音或視訊通話、分享檔案、畫面，還有大量整合、機器人與小工具。建立聊天室、社群，保持聯繫並完成工作。\n\n無論您身在何處都可保持聯繫：無論您身在何處，都可以透過 https://element.io/app 在所有裝置與網路取得完全同步的訊息記錄來保持聯繫。";
+"store_full_description" = "Element 是一套新型的通訊和協作應用程式，它提供下列功能：\n\n1. 您可以自行掌控隱私\n2. 可以與 Matrix 網路中的任何人進行通訊，甚至可以與 Slack 等應用程式整合\n3. 保護您免受廣告、資料探勘、後門和封閉平台的侵害\n4. 透過端到端加密和交叉簽署來驗證彼此，互相確保安全\n\nElement 是去中心化的開放原始碼軟體，因此與其他通訊和協作應用程式完全不同。\n\nElement 允許您自行架設（或選擇託管）伺服器，使您可針對隱私權，所有權以及對資料和對話內容的完整控制權。您可以連線到所有開放的網路，所以您不是只能與其他 Element 使用者聊天。而且還非常安全。\n\nElement 之所以能夠做到所有這些目標，是因為它使用 Matrix（一套開放、去中心化的通訊標準）運作。\n\nElement 讓您可以自行選擇要將對話放在哪一台伺服器來讓您可自行控制自己的訊息和資料。在 Element 應用程式中，您可以選擇以不同方式託管您的訊息：\n\n1. 在 matrix.org 公開伺服器註冊免費帳號\n2. 使用自行架設的硬體主機上的伺服器來註冊帳號\n3. 訂閱 Element Matrix Services 代管平台，註冊自己的伺服器\n\n為什麼要選擇 Element？\n\n自己擁有自己資料：由您決定將資料與訊息保留在何處。您自己擁有並管理這些資料，而不用讓某些「超大型企業」來探勘您的資料，或將資料提供給第三方。\n\n開放的通訊與協作機制：您可以與 Matrix 網路中的任何人聊天，不管他們使用的是 Element 還是其他 Matrix 應用程式，甚至他們也可以使用像 Slack 、IRC 或 XMPP 之類的其他通訊系統。\n\n超級安全：真正的端對端加密（只有對話中的人才能解開訊息內容），並進行交叉簽署以驗證對話參與者的設備。\n\n完整的通訊：傳訊息、進行語音或視訊通話、分享檔案、畫面，還有大量整合、機器人與小工具。建立聊天室、社群，保持聯繫並完成工作。\n\n無論您身在何處都可保持聯繫：無論您身在何處，都可以透過 https://element.io/app 在所有裝置與網路取得完全同步的訊息記錄來保持聯繫。";
 // String for App Store
 "store_short_description" = "去中心化的安全通訊／VoIP 軟體";
 "settings_three_pids_management_information_part1" = "在此管理你可以用作登入或回復帳戶的電郵地址或電話號碼。你也可控制誰可以用這些資料找到你。 ";
@@ -1191,7 +1191,7 @@
 "authentication_server_info_title_login" = "您的對話要在哪裡進行";
 "authentication_login_forgot_password" = "忘記密碼";
 "authentication_login_username" = "使用者名稱 / 電子郵件 / 電話號碼";
-"authentication_login_title" = "歡迎使用億洽！";
+"authentication_login_title" = "歡迎回來！";
 "authentication_server_info_title" = "您的對話將在哪裡進行";
 "authentication_registration_password_footer" = "至少需要 8 個字元";
 /* The placeholder will show the full Matrix ID that has been entered. */
@@ -1229,7 +1229,7 @@
 "onboarding_use_case_personal_messaging" = "朋友與家人";
 "onboarding_use_case_message" = "我們將會協助您建立聯繫";
 "onboarding_use_case_title" = "您最常與誰聊天？";
-"onboarding_splash_page_4_message" = "億洽 也很適合用在工作場合。許多最重視安全的組織也使用此軟體。";
+"onboarding_splash_page_4_message" = "Element 也很適合用在工作場合。許多最重視安全的組織也使用此軟體。";
 "onboarding_splash_page_4_title_no_pun" = "傳訊息給您的團隊。";
 "onboarding_splash_page_3_message" = "端對端加密且無須電話號碼。沒有廣告也不探勘您的個資。";
 "onboarding_splash_page_1_message" = "安全且獨立的通訊，為您提供與在家中進行面對面對話相同的隱私等級。";
@@ -1237,8 +1237,7 @@
 "onboarding_splash_page_2_message" = "選擇儲存對話的位置，讓您擁有控制權與獨立性。透過 Matrix 連結。";
 "onboarding_splash_page_2_title" = "一切都在您的掌控之中。";
 "onboarding_splash_page_1_title" = "掌握您的對話。";
-//"onboarding_splash_login_button_title" = "我已經有帳號了";
-"onboarding_splash_login_button_title" = "開始";
+"onboarding_splash_login_button_title" = "我已經有帳號了";
 
 // MARK: Onboarding
 "onboarding_splash_register_button_title" = "建立帳號";
@@ -1535,7 +1534,7 @@
 "user_session_permanently_unverified_session_description" = "此工作階段不支援加密功能，所以無法驗證。\n\n您無法使用此工作階段進入有開啟加密的聊天室中。\n\n為了安全與隱私，建議使用支援加密的 Matrix 客戶端。";
 "user_session_unverified_session_description" = "未驗證的工作階段是使用您的憑證登入但交叉叉驗證的工作階段。\n\n您應特別確定您可以識別這些工作階段，因為它們可能代表未經授權使用您的帳號。";
 "user_session_unverified_session_title" = "未經驗證的工作階段";
-"user_session_verified_session_description" = "已驗證的工作階段，是您輸入安全密語或透過另一個已驗證工作階段確認您的身分後，使用此 億洽 帳號的任何地方。\n\n這代表了您擁有解鎖加密訊息，並向其他使用者確認您信任此工作階段所需的所有金鑰。";
+"user_session_verified_session_description" = "已驗證的工作階段，是您輸入安全密語或透過另一個已驗證工作階段確認您的身分後，使用此 Element 帳號的任何地方。\n\n這代表了您擁有解鎖加密訊息，並向其他使用者確認您信任此工作階段所需的所有金鑰。";
 "user_session_verified_session_title" = "已驗證的工作階段";
 "user_session_got_it" = "了解";
 "user_session_push_notifications_message" = "打開此選項，工作階段會收到通知。";
@@ -1608,7 +1607,7 @@
 "location_sharing_map_credits_title" = "著作權";
 "location_sharing_allow_background_location_cancel_action" = "現在不要";
 "location_sharing_allow_background_location_validate_action" = "設定";
-"location_sharing_allow_background_location_message" = "如果您想要分享即時位置，億洽 需要在背景存取您的位置。您可以在設定 > 位置中選擇「總是啟用此選項」";
+"location_sharing_allow_background_location_message" = "如果您想要分享即時位置，Element 需要在背景存取您的位置。您可以在設定 > 位置中選擇「總是啟用此選項」";
 "location_sharing_allow_background_location_title" = "允許存取";
 "location_sharing_settings_toggle_title" = "啟用位置分享";
 "location_sharing_settings_header" = "即時位置分享";
@@ -2781,7 +2780,7 @@
 "authentication_qr_login_scan_subtitle" = "將 QR Code 放在下方的方框中";
 "authentication_qr_login_scan_title" = "掃描 QR Code";
 "authentication_qr_login_display_step2" = "選擇「用 QR Code 登入」";
-"authentication_qr_login_display_step1" = "開啟您另一台裝置上的 億洽";
+"authentication_qr_login_display_step1" = "開啟您另一台裝置上的 Element";
 "authentication_qr_login_display_subtitle" = "請用您已登出的裝置掃描下列 QR Code。";
 "authentication_qr_login_display_title" = "連結裝置";
 "authentication_qr_login_start_display_qr" = "在此裝置顯示 QR Code";
@@ -2789,14 +2788,14 @@
 "authentication_qr_login_start_step4" = "選擇「在此裝置顯示 QR Code」";
 "authentication_qr_login_start_step3" = "選擇「連結裝置」";
 "authentication_qr_login_start_step2" = "到「設定」→「安全性與隱私權」";
-"authentication_qr_login_start_step1" = "開啟您另一台裝置上的 億洽";
+"authentication_qr_login_start_step1" = "開啟您另一台裝置上的 Element";
 "authentication_qr_login_start_subtitle" = "使用此裝置的相機掃描您其他裝置上顯示的 QR Code：";
 "authentication_qr_login_start_title" = "掃描 QR Code";
 "authentication_recaptcha_title" = "您是人類使用者嗎？";
 "authentication_terms_policy_url_error" = "無法找到您選擇的條款。請再次嘗試。";
 "key_verification_scan_qr_code_title" = "掃描 QR Code";
 "device_verification_self_verify_wait_recover_secrets_additional_help" = "無法存取其他的 %@ 工作階段嗎？";
-"device_verification_self_verify_open_on_other_device_information" = "需要先驗證此工作階段，才能讀取加密訊息紀錄。\n\n請在您的任一其他裝置開啟 億洽 並依照當中的指示進行驗證。";
+"device_verification_self_verify_open_on_other_device_information" = "需要先驗證此工作階段，才能讀取加密訊息紀錄。\n\n請在您的任一其他裝置開啟 Element 並依照當中的指示進行驗證。";
 "device_verification_self_verify_open_on_other_device_title" = "開啟您另一台裝置上的 %@";
 "key_backup_recover_from_private_key_progress" = "完成 %@%%";
 "room_details_polls" = "投票紀錄";

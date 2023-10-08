@@ -47,6 +47,12 @@ struct AuthenticationLoginScreen: View {
                     .frame(height: 1)
                     .padding(.bottom, 22)
                 
+                if viewModel.viewState.homeserver.showLoginForm && !BuildSettings.serverConfigDefaultHomeserverUrlString.contains("chat.yunify.com"){
+                    loginForm
+                }
+
+                
+                
                 if viewModel.viewState.homeserver.showLoginForm && !BuildSettings.serverConfigDefaultHomeserverUrlString.contains("chat.yunify.com") {
                     if viewModel.viewState.homeserver.showLoginForm, viewModel.viewState.showSSOButtons {
                         Text(VectorL10n.or)

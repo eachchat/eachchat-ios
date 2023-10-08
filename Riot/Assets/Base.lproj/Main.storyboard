@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="H1p-Uh-vWS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="H1p-Uh-vWS">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,7 +12,7 @@
             <objects>
                 <navigationController id="RMx-3f-FxP" userLabel="HomeNav" customClass="RiotNavigationController" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Pmd-2v-anx">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -172,7 +171,7 @@
         <!--All Chats View Controller-->
         <scene sceneID="VNs-EF-YAe">
             <objects>
-                <viewController storyboardIdentifier="AllChatsViewController" extendedLayoutIncludesOpaqueBars="YES" id="EOr-kV-8pa" customClass="AllChatsViewController" customModule="EachChat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AllChatsViewController" extendedLayoutIncludesOpaqueBars="YES" id="EOr-kV-8pa" customClass="AllChatsViewController" customModule="Element" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5IA-we-z5u"/>
                         <viewControllerLayoutGuide type="bottom" id="9LE-SN-vqG"/>
@@ -357,7 +356,7 @@
             <objects>
                 <navigationController title="RoomNav" id="vC3-pB-5Vb" customClass="RiotNavigationController" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="DjV-YW-jjY">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -380,9 +379,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_screen_logo" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6LG-qc-7jf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_screen_logo" translatesAutoresizingMaskIntoConstraints="NO" id="6LG-qc-7jf">
                                 <rect key="frame" x="127.5" y="273.5" width="120" height="120"/>
-                                <color key="tintColor" systemColor="systemGreenColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="6LG-qc-7jf" secondAttribute="height" multiplier="1:1" id="4Qy-7P-CuE"/>
                                     <constraint firstAttribute="width" constant="120" id="E2Y-gX-itg"/>
@@ -534,10 +532,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Tfl-tq-LQp"/>
+        <segue reference="rok-Xg-Mhx"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="launch_screen_logo" width="512" height="512"/>
+        <image name="launch_screen_logo" width="240" height="240"/>
         <image name="search_icon" width="24" height="24"/>
         <image name="settings_icon" width="24" height="24"/>
         <image name="tab_favourites" width="24" height="24"/>
@@ -546,9 +544,6 @@
         <image name="tab_rooms" width="24" height="24"/>
         <systemColor name="groupTableViewBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
