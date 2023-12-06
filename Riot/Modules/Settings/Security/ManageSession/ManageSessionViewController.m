@@ -45,7 +45,7 @@ enum {
 };
 
 
-@interface ManageSessionViewController () <UserVerificationCoordinatorBridgePresenterDelegate>
+@interface ManageSessionViewController () <UserVerificationCoordinatorBridgePresenterDelegate, SSOAuthenticationPresenterDelegate>
 {
     // The device to display
     MXDevice *device;
@@ -63,6 +63,8 @@ enum {
 @property (nonatomic, strong) UserVerificationCoordinatorBridgePresenter *userVerificationCoordinatorBridgePresenter;
 
 @property (nonatomic, strong) ReauthenticationCoordinatorBridgePresenter *reauthenticationCoordinatorBridgePresenter;
+
+@property (nonatomic, strong) SSOAuthenticationPresenter *ssoAuthenticationPresenter;
 
 @end
 
@@ -656,6 +658,54 @@ enum {
 
 - (void)removeDevice
 {
+    MXWellKnownAuthentication *authentication = self.mainSession.homeserverWellknown.authentication;
+    if (authentication)
+    {
+        NSURL *logoutURL = [authentication getLogoutDeviceURLFromID:device.deviceId];
+        if (logoutURL)
+        {
+            [self removeDeviceRedirectWithURL:logoutURL];
+        }
+        else
+        {
+            [self showRemoveDeviceRedirectError];
+        }
+    }
+    else
+    {
+        [self removeDeviceThroughAPI];
+    }
+}
+
+-(void) removeDeviceRedirectWithURL: (NSURL * _Nonnull) url
+{
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle: [VectorL10n manageSessionRedirect] message: nil preferredStyle:UIAlertControllerStyleAlert];
+    
+    MXWeakify(self);
+    UIAlertAction *action = [UIAlertAction actionWithTitle:[VectorL10n ok]
+                                                     style:UIAlertActionStyleDefault
+                                                   handler: ^(UIAlertAction * action) {
+        MXStrongifyAndReturnIfNil(self);
+        SSOAccountService *service = [[SSOAccountService alloc] initWithAccountURL:url];
+        SSOAuthenticationPresenter *presenter = [[SSOAuthenticationPresenter alloc] initWithSsoAuthenticationService:service];
+        presenter.delegate = self;
+        self.ssoAuthenticationPresenter = presenter;
+        
+        [presenter presentForIdentityProvider:nil with:@"" from:self animated:YES];
+    }];
+    
+    [alert addAction: action];
+    [self presentViewController:alert animated:YES completion:nil];
+}
+
+-(void) showRemoveDeviceRedirectError
+{
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle: [VectorL10n manageSessionRedirectError] message: nil preferredStyle:UIAlertControllerStyleAlert];
+    [self presentViewController:alert animated:YES completion:nil];
+}
+
+-(void) removeDeviceThroughAPI
+{
     [self startActivityIndicator];
     self.view.userInteractionEnabled = NO;
     
@@ -707,6 +757,29 @@ enum {
 - (void)userVerificationCoordinatorBridgePresenterDelegateDidComplete:(UserVerificationCoordinatorBridgePresenter *)coordinatorBridgePresenter
 {
     [self reloadDeviceWithCompletion:^{}];
+}
+
+#pragma mark - SSOAuthenticationPresenterDelegate
+
+- (void)ssoAuthenticationPresenterDidCancel:(SSOAuthenticationPresenter *)presenter
+{
+    self.ssoAuthenticationPresenter = nil;
+    MXLogDebug(@"OIDC account management complete.")
+    [self withdrawViewControllerAnimated:YES completion:nil];
+}
+
+- (void)ssoAuthenticationPresenter:(SSOAuthenticationPresenter *)presenter authenticationDidFailWithError:(NSError *)error
+{
+    self.ssoAuthenticationPresenter = nil;
+    MXLogError(@"OIDC account management failed.")
+}
+
+- (void)ssoAuthenticationPresenter:(SSOAuthenticationPresenter *)presenter
+  authenticationSucceededWithToken:(NSString *)token
+             usingIdentityProvider:(SSOIdentityProvider *)identityProvider
+{
+    self.ssoAuthenticationPresenter = nil;
+    MXLogWarning(@"Unexpected callback after OIDC account management.")
 }
 
 @end

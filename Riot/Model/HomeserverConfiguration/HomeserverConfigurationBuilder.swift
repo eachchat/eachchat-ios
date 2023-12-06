@@ -50,11 +50,14 @@ final class HomeserverConfigurationBuilder: NSObject {
         } else {
             secureBackupSetupMethods = VectorWellKnownBackupSetupMethod.allCases
         }
+        
+        let deviceDehydrationEnabled = wellKnown?.jsonDictionary()["org.matrix.msc3814"] as? Bool == true
 
         let encryptionConfiguration = HomeserverEncryptionConfiguration(isE2EEByDefaultEnabled: isE2EEByDefaultEnabled,
                                                                         isSecureBackupRequired: isSecureBackupRequired,
                                                                         secureBackupSetupMethods: secureBackupSetupMethods,
-                                                                        outboundKeysPreSharingMode: outboundKeysPreSharingMode)
+                                                                        outboundKeysPreSharingMode: outboundKeysPreSharingMode,
+                                                                        deviceDehydrationEnabled: deviceDehydrationEnabled)
         
         // Jitsi configuration
         let jitsiPreferredDomain: String?
@@ -68,6 +71,8 @@ final class HomeserverConfigurationBuilder: NSObject {
             jitsiPreferredDomain = hardcodedJitsiServerURL?.host
             jitsiServerURL = hardcodedJitsiServerURL
         }
+        
+        let useJitsiFor1To1Calls = vectorWellKnownJitsiConfiguration?.useFor1To1Calls
         
         // Tile server configuration
         
@@ -84,7 +89,8 @@ final class HomeserverConfigurationBuilder: NSObject {
         // Create HomeserverConfiguration
         
         let jitsiConfiguration = HomeserverJitsiConfiguration(serverDomain: jitsiPreferredDomain,
-                                                              serverURL: jitsiServerURL)
+                                                              serverURL: jitsiServerURL,
+                                                              useFor1To1Calls: useJitsiFor1To1Calls)
                 
         return HomeserverConfiguration(jitsi: jitsiConfiguration,
                                        encryption: encryptionConfiguration,

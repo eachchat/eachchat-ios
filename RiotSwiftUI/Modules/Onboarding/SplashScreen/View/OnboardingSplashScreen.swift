@@ -100,7 +100,7 @@ struct OnboardingSplashScreen: View {
                 Text(VectorL10n.onboardingSplashRegisterButtonTitle)
             }
             .buttonStyle(PrimaryActionButtonStyle())
-
+            
             Button { viewModel.send(viewAction: .login) } label: {
                 Text(VectorL10n.onboardingSplashLoginButtonTitle)
                     .font(theme.fonts.body)
